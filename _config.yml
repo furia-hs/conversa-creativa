@@ -1,0 +1,12 @@
+# Site settings
+title: Conversa Creativa
+email: david@hastasiempre.mx
+description: Abordamos retos de investigación aplicada en el ámbito de financiamiento climático.
+baseurl: "/conversa-creativa" # the subpath of your site, e.g. /blog
+url: "http://furia-hs.github.io/conversa-creativa" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+sass:
+    sass_dir: _sass

@@ -1,0 +1,7 @@
+- name: Nombre
+  title: Título
+  description: |
+    <p>Parrafo uno</p>
+    <p>Parrafo dos</p>
+  logo: img/projects/logo.svg
+  icon: img/icon-aventones.svg
