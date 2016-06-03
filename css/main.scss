@@ -65,7 +65,7 @@ p {
   min-height: 40px;
 }
 
-.navbar-nav-white > li > a {
+.navbar-nav-white > li > a, .navbar-nav-language  > li > a {
   color: black;
   font-family: 'Lato', sans-serif;
   padding-bottom: 10px!important;
@@ -76,7 +76,12 @@ p {
   background: black;
 }
 
-.section-welcome-screen {
+.navbar-nav-language {
+  text-transform: uppercase;
+}
+
+// Index
+.index-welcome-screen {
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.2),
@@ -89,18 +94,18 @@ p {
   height: 100vh;
 }
 
-.section-welcome-screen .arrow {
+.index-welcome-screen .arrow {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
 
-.section-welcome-screen .arrow img {
+.index-welcome-screen .arrow img {
   height: 60px;
   width: 60px;
 }
 
-.section-welcome-screen h2 {
+.index-welcome-screen h2 {
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 36px;
@@ -113,7 +118,7 @@ p {
   }
 }
 
-.section-welcome-screen--vertical-center {
+.index-welcome-screen--vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-35%);
@@ -122,18 +127,17 @@ p {
   -webkit-transform: translateY(-35%);
 }
 
-.section-welcome-screen-divisor {
+.index-welcome-screen-divisor {
   background-color: white;
   margin-bottom: 20px;
   margin-top: 20px;
   height: 3px;
 }
 
-/* section-container */
-.section-container {
+.index-container {
   border-bottom: 1px solid $light-grey;
 }
-.section-container h3, .section-container h4 {
+.index-container h3, .index-container h4 {
   font-family: 'Lato', sans-serif;
   line-height: 1.25;
 }
@@ -142,7 +146,7 @@ p {
   margin: 80px 0;
 }
 
-.section-container-value-proposal p {
+.index-container-value-proposal p {
   color: $text-color;
   font-family: 'Lato', sans-serif;
   font-size: 21px;
@@ -162,10 +166,8 @@ p {
 .projects-block-row__padding {
   margin-bottom: 20px;
 }
-/* Contact */
-.contact-block {
 
-}
+// Contact
 
 .contact-block-form-group {
   border-top: 1px solid $text-color;
@@ -175,6 +177,8 @@ p {
 
 .contact-block h3, .contact-block label  {
   font-family: 'Lato', sans-serif;
+  position: relative;
+  z-index: 10;
 }
 
 .contact-block h3 {
@@ -183,6 +187,8 @@ p {
 
 .contact-block label {
   color: $text-color;
+  position: relative;
+  top: -2px;
 }
 
 .contact-block input {
@@ -213,6 +219,19 @@ p {
   box-shadow: none !important;
 }
 
+.contact-block-form-control__padding {
+  padding-left: 16px;
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    padding-left: 30px;
+  }
+}
+
+.contact-block-form-control__padding-case-2 {
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    padding-left: 22px;
+  }
+}
+
 .contact-block-submit-button {
   background-color: $text-color;
   border: none;
@@ -240,152 +259,51 @@ p {
     float: right;
   }
 }
-/* Conversa */
-//Equipo
-.innku-section-team {
-  margin-bottom: 50px;
 
-  @media screen and (max-width: 770px) {
-    margin-bottom: 0px;
+//Section layout
+.section-main-title {
+  margin: 14rem 0 7rem 0;
+
+  h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
   }
 }
 
-.innku-section-team-member {
-  margin-bottom: 50px;
-}
-
-.innku-section-team-member figure {
-  background: #000000;
-  cursor: pointer;
-  float: left;
-  height: 273px;
-  overflow: hidden;
-  position: relative;
-  margin: 0%;
-  text-align: center;
-
-  @media screen and (max-width: 1210px) {
-    height: 230px;
-  }
-
-  @media screen and (max-width: 770px) {
-    height: 273px;
-    margin-bottom: 30px;
-    margin-left: 25%;
-  }
-
-  @media screen and (max-width: 500px) {
-    margin-left: 13%;
-  }
-
-  @media screen and (max-width: 400px) {
-    margin-left: 0%;
-    height: 230px;
-  }
-
-}
-
-.innku-section-team-member figure img {
-  display: block;
-  min-height: 100%;
-  max-width: 100%;
-  opacity: 0.8;
-  position: relative;
-}
-
-.innku-section-team-member figure figcaption::before,
-.innku-section-team-member figure figcaption::after {
-  pointer-events: none;
-}
-
-.innku-section-team-member figure figcaption,
-.innku-section-team-member figure figcaption > a {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.innku-section-team-member figure figcaption > a {
-  font-size: 0;
-  opacity: 0;
-  text-indent: 200%;
-  white-space: nowrap;
-  z-index: 1000;
-}
-
-.innku-section-team-member figure h2 {
+.section-page-description {
+  border-bottom: 1px solid #cccccc;
   font-weight: 300;
-  font-size: 25px;
-  text-shadow: 0px 0px 10px #000000;
-  word-spacing: -0.15em;
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+  text-align: justify;
 }
 
-.innku-section-team-member figure h2,
-.innku-section-team-member figure p {
-  margin: 0;
-}
-
-.innku-section-team-member figure p {
-  font-size: 68.5%;
-  letter-spacing: 1px;
-
-  @media screen and (max-width: 400px) {
-    line-height: 1.2;
+.section-team-block {
+  ul {
+    list-style: none;
+    margin-left: 0px;
+    margin-bottom: 80px;
   }
 
-}
-
-.innku-section-team-member figure figcaption {
-  color: #fff;
-  font-size: 1.1em;
-  padding: 1.5em;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.innku-section-team-member figure.effect-oscar img {
-  opacity: 1;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
-}
-
-.innku-section-team-member figure.effect-oscar h2 {
-  margin: 15% 0 10px 0;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0,450%,0);
-  transform: translate3d(0,450%,0);
-
-  @media screen and (max-width: 400px) {
-    margin: 7% 0 10px 0;
+  li {
+    margin-bottom: 40px;
   }
-}
 
-.innku-section-team-member figure.effect-oscar figcaption::before,
-.innku-section-team-member figure.effect-oscar p {
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-}
+  h2, h3, p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
 
-.innku-section-team-member figure.effect-oscar:hover h2 {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
+  h2 {
+    margin-bottom: 4px;
+  }
 
-.innku-section-team-member figure.effect-oscar:hover figcaption::before,
-.innku-section-team-member figure.effect-oscar:hover p {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
+  h3 {
+    font-size: 22px;
+  }
 
-.innku-section-team-member figure.effect-oscar:hover img {
-  opacity: 0.4;
-  -webkit-filter: blur(5px) grayscale(100%);
-  filter: blur(5px) grayscale(100%);
+  p {
+    text-align: justify;
+  }
 }

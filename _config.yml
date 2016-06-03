@@ -1,9 +1,44 @@
 # Site settings
-title: Conversa Creativa
+title:
+  es: Conversa Creativa
+  en: Conversa Creativa
+description:
+  es: Abordamos retos de investigación aplicada en el ámbito de financiamiento climático.
+  en: We address challenges of applied research in the field of climate finance.
+index:
+  es:
+  en: home.html
 email: david@hastasiempre.mx
-description: Abordamos retos de investigación aplicada en el ámbito de financiamiento climático.
 baseurl: "/conversa-creativa" # the subpath of your site, e.g. /blog
 url: "http://furia-hs.github.io/conversa-creativa" # the base hostname & protocol for your site
+
+t:
+  es:
+    home:
+      name: "INICIO"
+      url: "/"
+    proyectos:
+      name: "PROYECTOS"
+      url: "/proyectos.html"
+    equipo:
+      name: "EQUIPO"
+      url: "/equipo.html"
+    publicaciones:
+      name: "PUBLICACIONES"
+      url: "/publicaciones.html"
+  en:
+    home:
+      name: "HOME"
+      url: "/home.html"
+    proyectos:
+      name: "PROJECTS"
+      url: "/projects.html"
+    equipo:
+      name: "TEAM"
+      url: "/team.html"
+    publicaciones:
+      name: "PUBLICATIONS"
+      url: "/publications.html"
 
 # Build settings
 markdown: kramdown
