@@ -17,7 +17,7 @@ lang: es
         <div class="col-md-offset-2 col-md-8 col-xs-offset-1 col-xs-10 index-welcome-screen-divisor">
         </div>
         <div class="col-md-offset-3 col-md-6">
-          <h2>Investigación aplicada para el financiamiento climático</h2>
+          <h2>{{ site.data.index.secondary-sentence }}</h2>
           <a href="#ver-mas" class="arrow bounce">
             <img src="img/down-arrow.svg" alt="arrow">
           </a>
@@ -32,7 +32,7 @@ lang: es
 <section id="ver-mas" class="container index-container">
   <div class="row">
     <div class="col-sm-offset-1 col-lg-10 index-container-value-proposal">
-      <p>Promovemos el financiamiento para el cambio climático a través de la investigación aplicada y la comunicación entre personas e instituciones de contextos tradicionalmente separados: organismos internacionales, productores rurales, universidades, entidades gubernamentales e inversionistas.</p>
+      <p>{{ site.data.index.value-proposal }}</p>
     </div>
   </div>
 </section>
@@ -41,18 +41,18 @@ lang: es
 <section class="container index-container">
   <div class="row section-row__padding">
     <div class="col-sm-offset-1 col-sm-10">
-      <h3 class="text-center">ESPECIALIDADES</h3>
+      <h3 class="text-center">{{ site.data.index.specialities-title }}</h3>
       <div class="row">
         <div class="col-md-5">
           <img src="img/speciality-1.svg" />
-          <h4>Inversión forestal y en producción sustentable</h4>
+          <h4>{{ site.data.index.susteinable-investment-title }}</h4>
           <p>Tenemos experiencia y método desarrollados para el estudio de las condiciones de financiamiento de productores pequeños y medianos en el sureste mexicano.</p>
           <p>Hemos explorado de cerca el funcionamiento de subsidios públicos, créditos privados y subvenciones internacionales en apoyo a la producción y transformación sustentable.</p>
           <p>Contamos con capacidades desarrolladas para trabajar con entidades financieras locales e internacionales en el diseño de productos financieros y esquemas de implementación que aprovechen las condiciones actuales y trabajen al lado de los productores para aumentar sus capacidades, mejorar su productividad, reducir los efectos negativos al medio ambiente y crear pilotos o zonas de producción sostenible.</p>
         </div>
         <div class="col-md-offset-2 col-md-5">
           <img src="img/speciality-2.svg" />
-          <h4>Ampliación del uso de energías renovables</h4>
+          <h4>{{ site.data.index.renewable-energy-title }}</h4>
           <p>Tenemos experiencia y método desarrollados para el estudio de las condiciones de financiamiento de productores pequeños y medianos en el sureste mexicano.</p>
           <p>Hemos explorado de cerca el funcionamiento de subsidios públicos, créditos privados y subvenciones internacionales en apoyo a la producción y transformación sustentable.</p>
           <p>Contamos con capacidades desarrolladas para trabajar con entidades financieras locales e internacionales en el diseño de productos financieros y esquemas de implementación que aprovechen las condiciones actuales y trabajen al lado de los productores para aumentar sus capacidades, mejorar su productividad, reducir los efectos negativos al medio ambiente y crear pilotos o zonas de producción sostenible.</p>
@@ -64,9 +64,9 @@ lang: es
 
 <!-- Proyectos sobresalientes -->
 <section class="container index-container">
-  <div class="row section-row__padding projects-block">
+  <div class="row section-row__padding index-projects-block">
     <div class="col-sm-offset-1 col-sm-10">
-      <h3 class="text-center">PROYECTOS SOBRESALIENTES</h3>
+      <h3 class="text-center">{{ site.data.index.outstanding-projects-title }}</h3>
       <div class="row projects-block-row__padding">
         <div class="col-sm-4">
           <img class="img-responsive" src="img/project-reference.jpg" />
@@ -81,6 +81,21 @@ lang: es
           <h4><a href="/">Puesta en marcha del Fondo Climático de la Península de Yucatán</a></h4>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+<!-- Clientes -->
+<section class="container index-container">
+  <div class="row section-row__padding index-clients-block">
+    <div class="col-sm-offset-1 col-sm-10">
+      <h3 class="text-center">{{ site.data.clients.title-es }}</h3>
+      <ul class="row">
+        {% for client in site.data.clients.client %}
+          <li class="col-sm-2">
+            <a href="{{ client.link }}" target="_blank" class="section-clients-image__height"><img class="img-responsive" src="{{ client.image }}"></a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>

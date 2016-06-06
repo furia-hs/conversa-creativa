@@ -137,9 +137,14 @@ p {
 .index-container {
   border-bottom: 1px solid $light-grey;
 }
+
 .index-container h3, .index-container h4 {
   font-family: 'Lato', sans-serif;
   line-height: 1.25;
+}
+
+.index-container h3 {
+  text-transform: uppercase;
 }
 
 .section-row__padding {
@@ -155,16 +160,29 @@ p {
   text-align: center;
 }
 
-.projects-block h3 {
-  margin-bottom: 40px;
-}
+.index-projects-block {
+  h3 {
+    margin-bottom: 40px;
+  }
 
-.projects-block a {
-  color: black;
+  a {
+    color: black;
+  }
 }
 
 .projects-block-row__padding {
   margin-bottom: 20px;
+}
+
+.index-clients-block {
+  h3 {
+    margin-bottom: 40px;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
 }
 
 // Contact
@@ -269,6 +287,11 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
   }
+
+  p {
+    font-weight: 300;
+    text-align: center;
+  }
 }
 
 .section-main-title__margin {
@@ -289,7 +312,7 @@ p {
   text-align: justify;
 }
 
-.section-team-block, .section-projects-block {
+.section-team-block, .section-projects-block, .index-container-clients {
   ul {
     list-style: none;
     margin-left: 0px;
@@ -298,6 +321,10 @@ p {
 
   li {
     margin-bottom: 40px;
+  }
+
+  ol > li {
+    font-weight: 300;
   }
 
   h2, h3, p {
@@ -315,6 +342,11 @@ p {
 
   p {
     text-align: justify;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
   }
 }
 

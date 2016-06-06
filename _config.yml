@@ -17,6 +17,9 @@ t:
     home:
       name: "INICIO"
       url: "/"
+    especialidades:
+      name: "ESPECIALIDADES"
+      url: "/especialidades.html"
     proyectos:
       name: "PROYECTOS"
       url: "/proyectos.html"
@@ -33,6 +36,9 @@ t:
     home:
       name: "HOME"
       url: "/home.html"
+    especialidades:
+      name: "SPECIALITIES"
+      url: "/specialities.html"
     proyectos:
       name: "PROJECTS"
       url: "/projects.html"

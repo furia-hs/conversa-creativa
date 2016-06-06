@@ -1,17 +1,112 @@
 current-title: Proyectos actuales
+current-title-note: Para más información acerca de estos proyectos, contactar a adriana@conversamexico.com
 current:
-  - name: Nombre del proyecto actual
-    description: |
-      <p>Parrafo uno</p>
-      <p>Parrafo dos</p>
-    link: http://conversamexico.com
-    image: img/team/team-image.jpg
+  - name: >
+      Construyendo cadenas de valor: Uso de biomasa agrícola y forestal en aplicaciones energéticas
+    description: >
+      <p>Las industrias con uso intensivo de hornos tienen un rol fundamental en la reducción de emisiones de gases efecto invernadero. Las unidades económicas tradicionales de los sectores ladrillero, mezcalero, de elaboración de alimentos (tortilla, pan, rosticerías) y cerámica, cuentan con tecnologías rudimentarias pero con grandes potenciales de mejora de su desempeño ambiental. Esto se puede lograr vía la sustitución de combustibles y mejoras sencillas a sus hornos.</p>
+      <p>En asociación con el <a href="http://www.cinam.mx/">Colegio de Ingenieros Ambientales de México</a> y con financiamiento del Fondo de Cambio Climático de <a href="http://www.gob.mx/semarnat">SEMARNAT</a>, realizamos un estudio para valorar la factibilidad de usar biomasa en aplicaciones energéticas.</p>
+      <p>El estudio aborda la viabilidad de utilizar residuos agrícolas y forestales para la elaboración de bloques de biomasa que tengan mayor capacidad calorífica y mejor combustión. Al tiempo que se mejoran las condiciones de emisión de GEI, el uso de biomasa abre una puerta para la generación de ingresos con activos que actualmente no tienen valor en algunas comunidades. El estudio  se concentra en la valoración de uso de aserrín y hojas/puntas de caña de azúcar cosechada en verde.</p>
+    link: https://www.dropbox.com/s/76y8wkc71k9d64g/Biomasa_energia_Oax%20060516f.pdf?dl=0
+    image: img/projects/construyendo-cadenas.jpg
+
+  - name: >
+      Diseñando programas de inversión para la restauración productiva y la reducción de emisiones por deforestación. Metodología y caso Calakmul Sur
+    description: >
+      <p>En el marco de la Iniciativa de Reducción de Emisiones para el <a href="http://www.forestcarbonpartnership.org/">Fondo Cooperativo del Carbono de los Bosques</a>, en México se han elaborado 11 programas de inversión en las Áreas de Acción Temprana REDD+ (Jalisco, Chiapas, Campeche, Quintana Roo, Yucatán).</p>
+      <p>Nuestro trabajo es recuperar la experiencia metodológica de estos 11 programas y complementar las herramientas de trabajo para que las siguientes fases de planeación REDD+ a nivel regional cuenten con más elementos que faciliten el diagnóstico y planeación participativa. Además, elaboraremos un diagnóstico preliminar de dinámicas productivas y de deforestación en la región fronteriza entre los municipios de Othón P. Blanco (Quintana Roo) y Calakmul (Campeche).</p>
+    image: img/projects/calakmul-sur.jpg
+
+  - name: >
+      Diseño del Fondo Chiapas para el Desarrollo Rural Sustentable
+    description: >
+      <p>La creación de este fondo es parte de la preparación institucional para implementar REDD+ y otros esquemas de financiamiento al desarrollo rural sustentable en Chiapas. Buscamos diseñar una estructura de financiamiento que permita canalizar recursos privados y públicos a actividades productivas sostenibles y otras de conservación.</p>
+    image: img/projects/chiapas.jpg
+
+  - name: >
+      Escalando la inversión forestal en Durango
+    description: >
+      <p>A solicitud de KfW, Conafor y FIRA, trabajaremos con empresas forestales comunitarias del estado de Durango en el diseño de un plan de negocios asociado a un programa de asistencia técnica que les permita escalar su producción, mejorar su desempeño ambiental y consolidarse en mercados nacionales e internacionales de madera.</p>
+    image: img/projects/durango.jpg
 
 previous-title: Proyectos anteriores
 previous:
-  - name: Nombre del proyecto pasado
-    description: |
-      <p>Parrafo uno</p>
-      <p>Parrafo dos</p>
-    link: http://conversamexico.com
-    image: img/team/team-image.jpg
+  - name: >
+      Fondo Climático de la Península de Yucatán
+    description: >
+      <p>La Península de Yucatán es una región mexicana con gran actividad en relación a la adaptación y mitigación del cambio climático. Los gobiernos estatales y una variedad de actores nacionales e internacionales tienen fuerte presencia en la región.</p>
+      <p>En asociación con <a href="http://www.ithacaenvironmental.com/">Ithaca Environmental</a> hemos diseñado el Fondo Climático de la Península de Yucatán, una entidad encargada de gestionar recursos nacionales e internacionales dedicados a avanzar la agenda de desarrollo rural sustentable, energía limpia, agua y otros temas prioritarios en la región.</p>
+      <p>El Fondo Climático de la Península de Yucatán tiene un diseño institucional innovador que conforma una estructura sólida para operar bajo principios de pluralidad en la toma de decisiones, transparencia y manejo profesional de las inversiones captadas.</p>
+    link: http://www.ccpy.gob.mx/agenda-regional/fondo-cambio-climatico.php
+    link_2: http://www.seduma.yucatan.gob.mx/expoforoambiental2015/presentaciones-conferencias/8_FondoDeCambioClimaticoPY_SebastienProust_TNC.pdf
+    image: img/projects/campeche-yucatan-quintana-roo.jpg
+
+  - name: >
+      Instrumento financiero para actividades bajas en carbono, península de Yucatán
+    description: >
+      <p>Se diseñó un instrumento financiero múltiple, compuesto por tres elementos: crédito, fondo revolvente para asistencia técnica y fondo de garantía. El objetivo es facilitar a los productores el acceso al crédito comercial y garantías, pero a la vez desarrollar capacidades empresariales, técnicas y legales con las que no cuentan en estos momentos.</p>
+      <p>Por lo tanto, el instrumento servirá para apalancar fondos de inversión climática para facilitar el acceso al crédito formal a los productores con actividades bajas en carbono: apicultura, agricultura protegida, ganadería sustentables (SSPi) y silvicultura.</p>
+    txt-mail: Para mayor información contacta a adriana@conversamexico.com
+    image: img/projects/act-bajas-carbono.jpg
+
+  - name: >
+      Guía de inversión forestal en México
+    description: >
+      <p>El sector forestal en México capta menos del 1% del financiamiento privado en forma de créditos colocados, sin embargo, el país tiene un enorme potencial de producción forestal sustentable y es lugar de prácticas de manejo comunitario de bosques que han innovado por su fortaleza organizacional.</p>
+      <p>Esta guía brinda un panorama general de la producción forestal en bosques naturales y propone una serie de principios para aumentar el financiamiento forestal en el país.</p>
+    link: https://www.dropbox.com/s/rzvv03c9lm3mmzp/Investment%20Guide%20for%20Mexico%202015.pdf?dl=0
+    image: img/projects/inversion-forestal.jpg
+
+  - name: >
+      Análisis de subsidios y financiamiento con enfoque REDD+: Diseño e interacción de subsidios agropecuarios
+    description: >
+      <p>El financiamiento tanto público como privado es un elemento clave para impulsar actividades con enfoque REDD+. En este proyecto se identificó un conjunto de programas de subsidios públicos que pudieran financiar proyectos sustentables. Se elaboraron varios productos, destacan:</p>
+      <ol>
+        <li>“Análisis de tendencias de subsidios agropecuarios y deforestación en la península de Yucatán en el periodo 2008-2013”, en el que se hizo un análisis del comportamiento y tendencias presupuestales de tres programas de subsidios agropecuarios (PROCAMPO, Alianza para el campo y PROGAN) y la deforestación en la Península de Yucatán y</li>
+        <li>Guía para la búsqueda de subsidios para proyectos con enfoque REDD+, la cual puede descargarse en la el siguiente link.</li>
+      </ol>
+    link: http://www.alianza-mredd.org/biblioteca/publicaciones-de-la-alianza-2/guia-para-la-busqueda-de-subsidios-para-proyectos-con-enfoque-redd-117#.V1WHSJHhChc
+    image: img/projects/campeche-yucatan-quintana-roo.jpg
+
+  - name: >
+      Equidad e inclusión en la distribución de beneficios REDD+ en México
+    description: >
+      <p>La Unión Internacional de Conservación de la Naturaleza (UICN), con el apoyo financiero del Ministerio Federal de Medio Ambiente, Protección de la Naturaleza, Obras Públicas y Seguridad Nuclear (BMUB) de Alemania, lleva implementando desde 2013 acciones para apoyar el diseño de esquemas de distribución de beneficios REDD+ en pro de poblaciones en condición de pobreza y en el proceso nacional de preparación REDD+.</p>
+      <p>En mayo de 2015 facilitamos un taller con expertos en el desarrollo de REDD+, temas de equidad e inclusión y actores involucrados en la Iniciativa de Reducción de Emisiones (IRE) para dialogar sobre el desarrollo y evaluación de los Programas de Inversión de la IRE, la selección de actividades REDD+ y los retos para incluir a no-propietarios forestales entre los beneficiarios REDD+.</p>
+      <p>En este proceso aprendimos que el espacio dónde es posible alcanzar una amplia dimensión de equidad e inclusión es el desarrollo de los Planes de Acción Comunitaria; mediante el establecimiento de criterios, condiciones para el desarrollo de los mismos. Un reporte de este taller y una noticia se pueden ver en los siguientes links.</p>
+    link: http://www.iucn.org/es/content/uicn-fomenta-la-discusi%C3%B3n-en-m%C3%A9xico-sobre-criterios-de-equidad-y-distribuci%C3%B3n-de-beneficios
+    link_2: https://www.dropbox.com/s/ungg80gn76pd7zp/Memorias%20Taller%20UICN-CONABIO_Vfinal_socializada.pdf?dl=0
+    image: img/projects/equidad-inclusion.jpg
+
+  - name: >
+      Alcances y retos del proyecto de REDD+
+    description: >
+      <p>Como un paso final del proyecto Beneficios de REDD+ que lleva a cabo la Unión Internacional de Conservación de la Naturaleza (UICN) para contribuir a los procesos nacionales de preparación de REDD+ se llevó a cabo un taller con los socios del proyecto para recuperar experiencias, puntos clave, buenas prácticas, logros y retos. En el taller guiamos a los participantes hacia una reflexión sobre la ejecución del proyecto para construir una visión colectiva retrospectiva de los conocimientos y aportes del proyecto coordinado por UICN en México.</p>
+      <p>Uno de los aportes más importantes del proyecto  consistió en proponer opciones legales e institucionales para que la distribución de beneficios REDD+ incluya a las mujeres y grupos vulnerables, así como la inclusión de conceptos como equidad y género en las discusiones de REDD+.</p>
+      <p>En el taller también se identificaron los grandes retos pendientes y las oportunidades de aterrizar los aprendizajes y resultados hacia nuevas experiencias, como la IRE, para conseguir una mayor incorporación del proyecto en la versión nacional de REDD+.</p>
+    txt-mail: Para mayor información contacta a adriana@conversamexico.com
+    image: img/projects/resultados-alcances.jpg
+
+  - name: >
+      Diseño de un mecanismo de financiamiento para REDD+ en México. Diagnóstico
+    description: >
+      <p>El enfoque de REDD+ en México es el impulso al desarrollo rural sustentable y el manejo integrado de paisaje. Nuestro país no implementará REDD+ a nivel de proyecto o predio, sino a escala regional y paisajística. Este enfoque es una gran oportunidad para mejorar la planeación, coordinación e implementación de intervenciones públicas y privadas a escala regional.</p>
+      <p>Por otro lado, requiere un esfuerzo grande de gestión y un mandato político fuerte para alinear las políticas públicas y los incentivos privados hacia enfoques productivos sustentables.</p>
+      <p>El documento explora las vías de financiamiento generales para REDD+. Se estudia con más detalle, una forma de incorporar REDD+ en los criterios de política agropecuaria, específicamente a través del hoy extinto programa de apoyo a la inversión e infraestructura –PAIEI-.</p>
+    link: http://biblioteca.alianza-mredd.org/resena/c974c44d246a2865831633268a84550e2c6f079b
+    image: img/projects/map-image.jpg
+
+  - name: >
+      Alternativas de canalización de recursos REDD+ a nivel subnacional
+    description: >
+      <p>La primera experiencia de pago por resultados REDD+ en México se realizará en el marco del Fondo Cooperativo para el Carbono de los Bosques, vía un fideicomiso (Fondo de Carbono) que interactuará directamente con el Fondo de Cambio Climático (FCC) de la SEMARNAT. Este documento explora las opciones para canalizar los recursos del FCC a los estados participantes: Chiapas, Jalisco, Campeche, Quintana Roo y Yucatán.</p>
+    link: http://biblioteca.alianza-mredd.org/resena/2692f596884e1995502d7e7be793eab0a9401151
+    image: img/projects/canalizacion-recursos.jpg
+
+  - name: >
+      Aplicación del Marco de Evaluación de Opciones para valorar la preparación del país para implementar un mecanismo de distribución de beneficios REDD+
+    description: >
+      <p>El <a href="http://www.profor.info/">Programa sobre Bosques del Banco Mundial</a> diseño una metodología para ayudar a los países participantes de mecanismos REDD+ y otros financiamientos para el sector forestal, a valorar su grado de preparación institucional e identificación de rubros por fortalecer, para contar con una estructura idónea que permita implementar mecanismos de apoyo forestal y distribución de beneficios derivados de ello.</p>
+      <p>Al lado de Profor y Conafor, usamos por primera vez la metodología diseñada para elaborar un diagnóstico de las condiciones estructurales de México frente a los retos de financiamiento forestal y distribución de beneficios. El diagnóstico abordó los aspectos legales, financieros, de capacidad institucional y de monitoreo.</p>
+    link: http://www.profor.info/knowledge/developing-road-map-benefit-sharing-using-options-assessment-framework
+    image: img/projects/map-image.jpg

@@ -1,0 +1,27 @@
+secondary-sentence: Investigación aplicada para el financiamiento climático
+
+value-proposal: >
+  Promovemos el financiamiento para el cambio climático a través de la investigación aplicada y la comunicación entre personas e instituciones de contextos tradicionalmente separados: organismos internacionales, productores rurales, universidades, entidades gubernamentales e inversionistas.
+schema: img/team/team-image.jpg
+
+specialities-title: Especialidades
+susteinable-investment-title: Inversión sustentable
+sustainable-investment-description: |
+  <p></p>
+renewable-energy-title: Fomento de energías renovables
+renewable-energy-description: |
+  <p></p>
+
+outstanding-projects-title: Proyectos sobresalientes
+outstanding-projects:
+  - name: Fondo climático de la península de Yucatán
+    image: img/team/team-image.jpg
+    id:
+
+  - name: Construyendo cadenas de valor. Uso de biomasa agrícola y forestal en aplicaciones energéticas.
+    image: img/team/team-image.jpg
+    id:
+
+  - name: Instrumento financiero para actividades bajas en carbono
+    image: img/team/team-image.jpg
+    id:
