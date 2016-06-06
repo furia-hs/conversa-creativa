@@ -63,7 +63,7 @@ lang: es
   <div class="col-sm-offset-1 col-sm-10">
     <ul class="row">
       {% for client in site.data.clients.client %}
-        <li class="col-sm-3">
+        <li class="col-sm-2">
           <a href="{{ client.link }}" target="_blank" class="section-clients-image__height"><img class="img-responsive" src="{{ client.image }}"></a>
         </li>
       {% endfor %}
@@ -71,7 +71,7 @@ lang: es
   </div>
 </section>
 
-<div class="row section-main-title">
+<div class="row section-main-title__margin">
   <div class="col-lg-12">
     <h1>{{ site.data.allies.title-es }}</h1>
   </div>
@@ -81,7 +81,7 @@ lang: es
   <div class="col-sm-offset-1 col-sm-10">
     <ul class="row">
       {% for ally in site.data.allies.ally %}
-        <li class="col-sm-3">
+        <li class="col-sm-2">
           <a href="{{ ally.link }}" target="_blank"><img class="section-clients-image__height img-responsive" src="{{ ally.image }}"></a>
         </li>
       {% endfor %}

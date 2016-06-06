@@ -1,7 +1,17 @@
-- name: Nombre
-  title: Título
-  description: |
-    <p>Parrafo uno</p>
-    <p>Parrafo dos</p>
-  logo: img/projects/logo.svg
-  icon: img/icon-aventones.svg
+current-title: Current Projects
+current:
+  - name: Name of the current project
+    description: |
+      <p>Parrafo uno</p>
+      <p>Parrafo dos</p>
+    link: http://conversamexico.com
+    image: img/team/team-image.jpg
+
+previous-title: Previous Projects
+previous:
+  - name: Name of the previous project
+    description: |
+      <p>Parrafo uno</p>
+      <p>Parrafo dos</p>
+    link: http://conversamexico.com
+    image: img/team/team-image.jpg
