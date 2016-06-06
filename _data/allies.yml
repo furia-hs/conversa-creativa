@@ -1,0 +1,12 @@
+title: Aliados
+title-es: Allies
+
+ally:
+  - link: http://www.ithacaenvironmental.com/
+    image: img/allies/ithaca-environmental.png
+
+  - link: http://www.lacalenda.org/
+    image: img/allies/la-calenda.png
+
+  - link: http://www.cinam.mx/
+    image: img/allies/cinam.png

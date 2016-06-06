@@ -1,0 +1,19 @@
+title: Nuestro equipo
+
+current-title: Proyectos actuales
+current:
+  - name: Nombre del proyecto actual
+    description: |
+      <p>Parrafo uno</p>
+      <p>Parrafo dos</p>
+    link: http://conversamexico.com
+    image: img/team/team-image.jpg
+
+previous-title: Proyectos anteriores
+previous:
+  - name: Nombre del proyecto pasado
+    description: |
+      <p>Parrafo uno</p>
+      <p>Parrafo dos</p>
+    link: http://conversamexico.com
+    image: img/team/team-image.jpg

@@ -1,0 +1,45 @@
+title: Clients
+title-es: Clientes
+
+client:
+  - link: http://www.alianza-mredd.org/
+    image: img/clients/alianza-mredd.svg
+
+  - link: http://www.iadb.org/
+    image: img/clients/BID.png
+
+  - link: http://www.worldbank.org/
+    image: img/clients/world-bank.jpg
+
+  - link: http://centromariomolina.org/
+    image: img/clients/centro-mario-molina.png
+
+  - link: http://www.cesup.com.mx/
+    image: img/clients/cesup.png
+
+  - link: http://www.conabio.gob.mx/
+    image: img/clients/conabio.jpg
+
+  - link: http://www.fastinternational.org/
+    image: img/clients/fast.jpg
+
+  - link: http://www.fomin.org/
+    image: img/clients/fomin.png
+
+  - link: http://www.kfw.de/
+    image: img/clients/KfW.jpg
+
+  - link: http://www.larci.org/
+    image: img/clients/ICM.png
+
+  - link: http://www.profor.info/
+    image: img/clients/PROFOR.png
+
+  - link: http://simomexico.com/
+    image: img/clients/simo.png
+
+  - link: http://www.uicn.org/
+    image: img/clients/iucn.jpg
+
+  - link: https://www.usaid.gov/
+    image: img/clients/USAID.jpg

@@ -26,6 +26,9 @@ t:
     publicaciones:
       name: "PUBLICACIONES"
       url: "/publicaciones.html"
+    inversion:
+      name: "INVERSIÓN SUSTENTABLE"
+      url: "/inversion-sustentable.html"
   en:
     home:
       name: "HOME"
@@ -39,6 +42,9 @@ t:
     publicaciones:
       name: "PUBLICATIONS"
       url: "/publications.html"
+    inversion:
+      name: "SUSTAINABLE INVESTMENT"
+      url: "/sustainable-investment.html"
 
 # Build settings
 markdown: kramdown

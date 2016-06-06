@@ -131,7 +131,7 @@ p {
   background-color: white;
   margin-bottom: 20px;
   margin-top: 20px;
-  height: 3px;
+  height: 2px;
 }
 
 .index-container {
@@ -255,7 +255,7 @@ p {
     margin-bottom: 0;
   }
   .footer-logo img {
-    width: 9.250em;
+    width: 8.250em;
     float: right;
   }
 }
@@ -279,7 +279,7 @@ p {
   text-align: justify;
 }
 
-.section-team-block {
+.section-team-block, .section-projects-block {
   ul {
     list-style: none;
     margin-left: 0px;
@@ -300,10 +300,24 @@ p {
   }
 
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   p {
     text-align: justify;
   }
+}
+
+.section-team-image__margin, .section-projects-image__margin {
+  margin-bottom: 20px;
+  margin-top: 7px;
+  @media only screen and (max-width: 767px) {
+    margin-top: 0;
+  }
+}
+
+.section-clients-image__height {
+  display: block;
+  min-height: 128px;
+  margin: 0 auto;
 }
