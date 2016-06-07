@@ -10,7 +10,6 @@ lang: es
 <div class="row section-main-title">
   <div class="col-lg-12">
     <h1>{{ site.data.proyectos.current-title }}</h1>
-    <p>{{ site.data.proyectos.current-title-note }}</p>
   </div>
 </div>
 
@@ -25,7 +24,7 @@ lang: es
           <h2>{{ current.name }}</h2>
           {{ current.description}}
           {% if current.link %}
-            <p><a href="{{ current.link}}">Más información</a></p>
+            <p><a href="{{ current.link}}" target="_blank">Más información</a></p>
           {% endif %}
         </div>
       </li>
@@ -49,45 +48,9 @@ lang: es
         <div class="col-sm-7">
           <h2>{{ previous.name }}</h2>
           {{ previous.description}}
-          <p>{% if previous.link %}<a href="{{ previous.link}}">Más información </a>{% endif %}{% if previous.link_2 %} | <a href="{{ previous.link}}">Más información</a></p>{% endif %}{% if previous.txt-mail %} {{ previous.txt-mail}} {% endif %}</p>
+          <p>{% if previous.link %}<a href="{{ previous.link}}" target="_blank">Más información </a>{% endif %}{% if previous.link_2 %} | <a href="{{ previous.link}}">Más información</a></p>{% endif %}{% if previous.txt-mail %} {{ previous.txt-mail}} {% endif %}</p>
         </div>
       </li>
     {% endfor %}
   </ul>
-</section>
-
-<div class="row section-main-title">
-  <div class="col-lg-12">
-    <h1>{{ site.data.clients.title-es }}</h1>
-  </div>
-</div>
-
-<section class="row section-projects-block">
-  <div class="col-sm-offset-1 col-sm-10">
-    <ul class="row">
-      {% for client in site.data.clients.client %}
-        <li class="col-sm-2">
-          <a href="{{ client.link }}" target="_blank" class="section-clients-image__height"><img class="img-responsive" src="{{ client.image }}"></a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
-<div class="row section-main-title__margin">
-  <div class="col-lg-12">
-    <h1>{{ site.data.allies.title-es }}</h1>
-  </div>
-</div>
-
-<section class="row section-projects-block">
-  <div class="col-sm-offset-1 col-sm-10">
-    <ul class="row">
-      {% for ally in site.data.allies.ally %}
-        <li class="col-sm-2">
-          <a href="{{ ally.link }}" target="_blank"><img class="section-clients-image__height img-responsive" src="{{ ally.image }}"></a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
 </section>

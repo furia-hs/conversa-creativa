@@ -1,5 +1,4 @@
-current-title: Proyectos actuales
-current-title-note: Para más información acerca de estos proyectos, contactar a adriana@conversamexico.com
+current-title: Proyectos en marcha
 current:
   - name: >
       Construyendo cadenas de valor: Uso de biomasa agrícola y forestal en aplicaciones energéticas
@@ -29,7 +28,7 @@ current:
       <p>A solicitud de KfW, Conafor y FIRA, trabajaremos con empresas forestales comunitarias del estado de Durango en el diseño de un plan de negocios asociado a un programa de asistencia técnica que les permita escalar su producción, mejorar su desempeño ambiental y consolidarse en mercados nacionales e internacionales de madera.</p>
     image: img/projects/durango.jpg
 
-previous-title: Proyectos anteriores
+previous-title: Proyectos previos
 previous:
   - name: >
       Fondo Climático de la Península de Yucatán

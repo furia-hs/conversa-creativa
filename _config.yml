@@ -10,7 +10,7 @@ index:
   en: home.html
 email: david@hastasiempre.mx
 baseurl: "/conversa-creativa" # the subpath of your site, e.g. /blog
-url: "http://furia-hs.github.io/conversa-creativa" # the base hostname & protocol for your site
+url: "http://hasta-siempre.github.io/conversa-creativa" # the base hostname & protocol for your site
 
 t:
   es:
@@ -26,9 +26,9 @@ t:
     equipo:
       name: "EQUIPO"
       url: "/equipo.html"
-    publicaciones:
-      name: "PUBLICACIONES"
-      url: "/publicaciones.html"
+    biblioteca:
+      name: "BIBLIOTECA"
+      url: "/biblioteca.html"
     inversion:
       name: "INVERSIÓN SUSTENTABLE"
       url: "/inversion-sustentable.html"
@@ -45,9 +45,9 @@ t:
     equipo:
       name: "TEAM"
       url: "/team.html"
-    publicaciones:
-      name: "PUBLICATIONS"
-      url: "/publications.html"
+    biblioteca:
+      name: "LIBRARY"
+      url: "/library.html"
     inversion:
       name: "SUSTAINABLE INVESTMENT"
       url: "/sustainable-investment.html"
