@@ -2,6 +2,7 @@ current-title: Proyectos en marcha
 current:
   - name: >
       Construyendo cadenas de valor: Uso de biomasa agrícola y forestal en aplicaciones energéticas
+    id: construyendo-cadenas-de-valor
     description: >
       <p>Las industrias con uso intensivo de hornos tienen un rol fundamental en la reducción de emisiones de gases efecto invernadero. Las unidades económicas tradicionales de los sectores ladrillero, mezcalero, de elaboración de alimentos (tortilla, pan, rosticerías) y cerámica, cuentan con tecnologías rudimentarias pero con grandes potenciales de mejora de su desempeño ambiental. Esto se puede lograr vía la sustitución de combustibles y mejoras sencillas a sus hornos.</p>
       <p>En asociación con el <a href="http://www.cinam.mx/">Colegio de Ingenieros Ambientales de México</a> y con financiamiento del Fondo de Cambio Climático de <a href="http://www.gob.mx/semarnat">SEMARNAT</a>, realizamos un estudio para valorar la factibilidad de usar biomasa en aplicaciones energéticas.</p>
@@ -32,6 +33,7 @@ previous-title: Proyectos previos
 previous:
   - name: >
       Fondo Climático de la Península de Yucatán
+    id: fondo-climatico-de-la-peninsula-de-yucatán
     description: >
       <p>La Península de Yucatán es una región mexicana con gran actividad en relación a la adaptación y mitigación del cambio climático. Los gobiernos estatales y una variedad de actores nacionales e internacionales tienen fuerte presencia en la región.</p>
       <p>En asociación con <a href="http://www.ithacaenvironmental.com/">Ithaca Environmental</a> hemos diseñado el Fondo Climático de la Península de Yucatán, una entidad encargada de gestionar recursos nacionales e internacionales dedicados a avanzar la agenda de desarrollo rural sustentable, energía limpia, agua y otros temas prioritarios en la región.</p>
@@ -42,6 +44,7 @@ previous:
 
   - name: >
       Instrumento financiero para actividades bajas en carbono, península de Yucatán
+    id: actividades-bajas-en-carbono
     description: >
       <p>Se diseñó un instrumento financiero múltiple, compuesto por tres elementos: crédito, fondo revolvente para asistencia técnica y fondo de garantía. El objetivo es facilitar a los productores el acceso al crédito comercial y garantías, pero a la vez desarrollar capacidades empresariales, técnicas y legales con las que no cuentan en estos momentos.</p>
       <p>Por lo tanto, el instrumento servirá para apalancar fondos de inversión climática para facilitar el acceso al crédito formal a los productores con actividades bajas en carbono: apicultura, agricultura protegida, ganadería sustentables (SSPi) y silvicultura.</p>
@@ -50,6 +53,7 @@ previous:
 
   - name: >
       Guía de inversión forestal en México
+    id: guia-de-inversion-forestal-en-mexico
     description: >
       <p>El sector forestal en México capta menos del 1% del financiamiento privado en forma de créditos colocados, sin embargo, el país tiene un enorme potencial de producción forestal sustentable y es lugar de prácticas de manejo comunitario de bosques que han innovado por su fortaleza organizacional.</p>
       <p>Esta guía brinda un panorama general de la producción forestal en bosques naturales y propone una serie de principios para aumentar el financiamiento forestal en el país.</p>
@@ -88,6 +92,7 @@ previous:
 
   - name: >
       Diseño de un mecanismo de financiamiento para REDD+ en México. Diagnóstico
+    id: diseno-mecanismo-de-financiamiento
     description: >
       <p>El enfoque de REDD+ en México es el impulso al desarrollo rural sustentable y el manejo integrado de paisaje. Nuestro país no implementará REDD+ a nivel de proyecto o predio, sino a escala regional y paisajística. Este enfoque es una gran oportunidad para mejorar la planeación, coordinación e implementación de intervenciones públicas y privadas a escala regional.</p>
       <p>Por otro lado, requiere un esfuerzo grande de gestión y un mandato político fuerte para alinear las políticas públicas y los incentivos privados hacia enfoques productivos sustentables.</p>

@@ -1,0 +1,43 @@
+title: Especialidades
+relevant-experience-title: Experiencias relevantes
+
+susteinable-investment-title: Inversión sustentable
+sustainable-investment-image: img/speciality-1.svg
+sustainable-investment-description: >
+  <p>Nos concentramos en los sectores agrícola, pecuario y forestal.</p>
+  <p>Tenemos experiencia y métodos desarrollados para el estudio de las condiciones de financiamiento de productores pequeños y medianos en el sureste mexicano.</p>
+  <p>Hemos explorado de cerca el funcionamiento de subsidios públicos, créditos privados y subvenciones internacionales en apoyo a la producción y transformación sustentable.</p>
+  <p>Contamos con capacidades desarrolladas para trabajar con entidades financieras locales e internacionales en el diseño de productos financieros y esquemas de implementación que aprovechen las condiciones actuales y trabajen al lado de los productores para aumentar sus capacidades, mejorar su productividad, reducir los efectos negativos al medio ambiente y crear pilotos o zonas de producción sostenible.</p>
+
+# Sustainable Relevant Experience
+sre:
+  - name: >
+      Fondo Climático de la Península de Yucatán
+    id: fondo-climatico-de-la-peninsula-de-yucatán
+
+  - name: >
+      Instrumento financiero para actividades bajas en carbono, península de Yucatán
+    id: actividades-bajas-en-carbono
+
+  - name: >
+      Guía de inversión forestal en México
+    id: guia-de-inversion-forestal-en-mexico
+
+  - name: >
+      Diseño de un mecanismo de financiamiento para REDD+ en México
+    id: diseno-mecanismo-de-financiamiento
+
+renewable-energy-title: Fomento de energías renovables
+renewable-energy-image: img/speciality-2.svg
+renewable-energy-description: |
+  <p>Trabajamos para la ampliación del uso de energía renovable en pequeñas unidades económicas.</p>
+  <p>Conocemos las herramientas y métodos para estimar el potencial recursos naturales como fuentes de energía renovables, principalmente de tecnologías maduras y competitivas.</p>
+  <p>Estamos al tanto de las nuevas tecnologías de aprovechamiento de fuentes renovables y su previsible desarrollo.</p>
+  <p>Sabemos lo necesario para enlazar financiamiento e inversiones de estrategias internacionales en proyectos de mitigación de cambio climático y desarrollo sustentable con base en las energías renovables.</p>
+  <p>A nivel local hemos explorado de cerca los esquemas nacionales de gestión, apoyo y financiamiento para la adopción de tecnologías de eficiencia energética en las PYMES y sector productivo.</p>
+
+# Renewable Energy Relevant Experience
+rere:
+  - name: >
+      Construyendo cadenas de valor: uso de biomasa agrícola y forestal en aplicaciones energéticas
+    id: construyendo-cadenas-de-valor

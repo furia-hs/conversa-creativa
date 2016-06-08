@@ -9,20 +9,22 @@ lang: es
 
 <div class="row section-main-title">
   <div class="col-lg-12">
-    <h1>{{ site.data.proyectos.current-title }}</h1>
+    <h2>{{ site.data.proyectos.current-title }}</h2>
   </div>
 </div>
 
 <section class="section-projects-block">
   <ul class="">
     {% for current in site.data.proyectos.current %}
-      <li class="row">
+      <li class="row" {% if current.id %}id="{{ current.id }}"{% endif %}>
         <div class="col-sm-offset-1 col-sm-3">
           <img class="section-projects-image__margin" src="{{ current.image }}">
         </div>
         <div class="col-sm-7">
-          <h2>{{ current.name }}</h2>
-          {{ current.description}}
+          <h3>{{ current.name }}</h3>
+          <div class="readmore">
+            {{ current.description}}
+          </div>
           {% if current.link %}
             <p><a href="{{ current.link}}" target="_blank">Más información</a></p>
           {% endif %}
@@ -41,7 +43,7 @@ lang: es
 <section class="section-projects-block">
   <ul class="">
     {% for previous in site.data.proyectos.previous %}
-      <li class="row">
+      <li class="row" {% if previous.id %}id="{{ previous.id }}"{% endif %}>
         <div class="col-sm-offset-1 col-sm-3">
           <img class="section-projects-image__margin" src="{{ previous.image }}">
         </div>

@@ -39,23 +39,17 @@ lang: es
 
 <!-- Especialidades -->
 <section class="container index-container">
-  <div class="row section-row__padding">
+  <div class="row index-row__padding">
     <div class="col-sm-offset-1 col-sm-10">
       <h3 class="text-center">{{ site.data.index.specialities-title }}</h3>
       <div class="row">
         <div class="col-md-5">
           <img src="img/speciality-1.svg" />
-          <h4>{{ site.data.index.susteinable-investment-title }}</h4>
-          <p>Tenemos experiencia y método desarrollados para el estudio de las condiciones de financiamiento de productores pequeños y medianos en el sureste mexicano.</p>
-          <p>Hemos explorado de cerca el funcionamiento de subsidios públicos, créditos privados y subvenciones internacionales en apoyo a la producción y transformación sustentable.</p>
-          <p>Contamos con capacidades desarrolladas para trabajar con entidades financieras locales e internacionales en el diseño de productos financieros y esquemas de implementación que aprovechen las condiciones actuales y trabajen al lado de los productores para aumentar sus capacidades, mejorar su productividad, reducir los efectos negativos al medio ambiente y crear pilotos o zonas de producción sostenible.</p>
+          <h4><a href="/especialidades.html">{{ site.data.index.susteinable-investment-title }}</a></h4>
         </div>
         <div class="col-md-offset-2 col-md-5">
           <img src="img/speciality-2.svg" />
-          <h4>{{ site.data.index.renewable-energy-title }}</h4>
-          <p>Tenemos experiencia y método desarrollados para el estudio de las condiciones de financiamiento de productores pequeños y medianos en el sureste mexicano.</p>
-          <p>Hemos explorado de cerca el funcionamiento de subsidios públicos, créditos privados y subvenciones internacionales en apoyo a la producción y transformación sustentable.</p>
-          <p>Contamos con capacidades desarrolladas para trabajar con entidades financieras locales e internacionales en el diseño de productos financieros y esquemas de implementación que aprovechen las condiciones actuales y trabajen al lado de los productores para aumentar sus capacidades, mejorar su productividad, reducir los efectos negativos al medio ambiente y crear pilotos o zonas de producción sostenible.</p>
+          <h4><a href="/especialidades.html">{{ site.data.index.renewable-energy-title }}</a></h4>
         </div>
       </div>
     </div>
@@ -64,29 +58,23 @@ lang: es
 
 <!-- Proyectos sobresalientes -->
 <section class="container index-container">
-  <div class="row section-row__padding index-projects-block">
+  <div class="row index-row__padding">
     <div class="col-sm-offset-1 col-sm-10">
       <h3 class="text-center">{{ site.data.index.outstanding-projects-title }}</h3>
-      <div class="row projects-block-row__padding">
-        <div class="col-sm-4">
-          <img class="img-responsive" src="img/project-reference.jpg" />
-          <h4><a href="/">Diagnóstico de las condiciones de crédito privado y público para el sector primario (agricultura, ganadería, silvicultura)</a></h4>
-        </div>
-        <div class="col-sm-4">
-          <img class="img-responsive" src="img/project-reference.jpg" />
-          <h4><a href="/">Diseño de instrumento financiero para actividades bajas en carbono en la península de Yucatán</a> </h4>
-        </div>
-        <div class="col-sm-4">
-          <img class="img-responsive" src="img/project-reference.jpg" />
-          <h4><a href="/">Puesta en marcha del Fondo Climático de la Península de Yucatán</a></h4>
-        </div>
-      </div>
+      <ul class="row">
+        {% for outstanding-projects in site.data.index.outstanding-projects %}
+          <li class="col-sm-4">
+            <img class="img-responsive" src="{{ outstanding-projects.image }}" />
+            <a href="{{ outstanding-projects.id }}">{{ outstanding-projects.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>
 <!-- Clientes -->
 <section class="container index-container">
-  <div class="row section-row__padding index-clients-block">
+  <div class="row index-row-ul__padding">
     <div class="col-sm-offset-1 col-sm-10">
       <h3 class="text-center">{{ site.data.clients.title-es }}</h3>
       <ul class="row">
@@ -102,7 +90,7 @@ lang: es
 
 <!-- Aliados -->
 <section class="container index-container">
-  <div class="row section-row__padding index-clients-block">
+  <div class="row index-row-ul__padding">
     <div class="col-sm-offset-1 col-sm-10">
       <h3 class="text-center">{{ site.data.allies.title-es }}</h3>
       <ul class="row">
@@ -117,7 +105,7 @@ lang: es
 </section>
 <!-- Contacto -->
 <section class="container">
-  <div class="row section-row__padding contact-block">
+  <div class="row index-row__padding contact-block">
     <div class="col-sm-offset-4 col-sm-4 " id="contact-block">
       <h3 class="text-center">CONTACTO</h3>
       <form class="form-horizontal" action="https://formspree.io/david@hastasiempre.mx" method="POST">

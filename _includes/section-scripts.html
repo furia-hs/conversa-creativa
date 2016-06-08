@@ -1,0 +1,12 @@
+<script type="text/javascript">
+  $('.readmore').readmore({
+    moreLink: '<a href="#">Leer más</a>',
+    lessLink: '<a href="#">Ocultar texto</a>',
+    collapsedHeight: 116,
+    afterToggle: function(trigger, element, expanded) {
+      if(! expanded) { // The "Close" link was clicked
+        $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
+      }
+    }
+  });
+</script>
