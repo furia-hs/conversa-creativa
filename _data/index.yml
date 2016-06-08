@@ -16,12 +16,12 @@ outstanding-projects-title: Proyectos sobresalientes
 outstanding-projects:
   - name: Fondo climático de la península de Yucatán
     image: img/team/team-image.jpg
-    id:
+    id: fondo-climatico-de-la-peninsula-de-yucatan
 
   - name: Construyendo cadenas de valor. Uso de biomasa agrícola y forestal en aplicaciones energéticas.
     image: img/team/team-image.jpg
-    id:
+    id: construyendo-cadenas-de-valor
 
   - name: Instrumento financiero para actividades bajas en carbono
     image: img/team/team-image.jpg
-    id:
+    id: actividades-bajas-en-carbono

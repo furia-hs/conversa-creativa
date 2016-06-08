@@ -172,6 +172,7 @@ p {
 
 .index-container a {
   color: black;
+  font-weight: 300;
   text-decoration: underline;
 }
 
@@ -283,14 +284,14 @@ p {
 //Section layout
 .section-main-title {
   margin: 125px 0 40px 0;
+}
 
-  h2 {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
+.section-main-title  h2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .section-main-title__margin {
@@ -303,31 +304,29 @@ p {
   }
 }
 
-.section-content {
-  h3, h4 {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+.section-content h3, .section-content h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-  p {
-    font-weight: 300;
-  }
+.section-content p {
+  font-weight: 300;
+}
 
-  ul {
-    list-style: none;
-    margin-left: 0px;
-    margin-bottom: 80px;
-  }
-  a {
-    color: black;
-    text-decoration: underline;
-  }
+.section-content ul {
+  list-style: none;
+  margin-left: 0px;
+  margin-bottom: 80px;
+}
 
-  img {
-    margin-bottom: 20px;
-  }
+.section-content a {
+  color: black;
+  text-decoration: underline;
+}
 
+.section-content img {
+  margin-bottom: 20px;
 }
 
 .section-page-description {
@@ -337,8 +336,6 @@ p {
   padding-bottom: 80px;
   text-align: justify;
 }
-
-
 
 .section-team-block, .section-projects-block, .index-container-clients {
   ul {
@@ -374,6 +371,7 @@ p {
 
   a {
     color: black;
+    font-weight: 300;
     text-decoration: underline;
   }
 }

@@ -25,7 +25,7 @@ lang: es
           {% for sre in site.data.especialidades.sre %}
             <li class="row">
               <div class="col-sm-12">
-                <p><a href="/proyectos.html#{{ sre.id }}">{{ sre.name }}</a></p>
+                <p><a href="{{ site.baseurl }}/proyectos.html#{{ sre.id }}">{{ sre.name }}</a></p>
               </div>
             </li>
           {% endfor %}

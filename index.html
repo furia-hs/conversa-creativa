@@ -45,11 +45,11 @@ lang: es
       <div class="row">
         <div class="col-md-5">
           <img src="img/speciality-1.svg" />
-          <h4><a href="/especialidades.html">{{ site.data.index.susteinable-investment-title }}</a></h4>
+          <h4><a href="{{site.baseurl}}/especialidades.html">{{ site.data.index.susteinable-investment-title }}</a></h4>
         </div>
         <div class="col-md-offset-2 col-md-5">
           <img src="img/speciality-2.svg" />
-          <h4><a href="/especialidades.html">{{ site.data.index.renewable-energy-title }}</a></h4>
+          <h4><a href="{{site.baseurl}}/especialidades.html">{{ site.data.index.renewable-energy-title }}</a></h4>
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@ lang: es
         {% for outstanding-projects in site.data.index.outstanding-projects %}
           <li class="col-sm-4">
             <img class="img-responsive" src="{{ outstanding-projects.image }}" />
-            <a href="{{ outstanding-projects.id }}">{{ outstanding-projects.name }}</a>
+            <p><a href="{{ site.baseurl }}/proyectos.html#{{ outstanding-projects.id }}">{{ outstanding-projects.name }}</a></p>
           </li>
         {% endfor %}
       </ul>
