@@ -22,7 +22,6 @@ lang: es
             <img src="img/down-arrow.svg" alt="arrow">
           </a>
         </div>
-
       </section>
     </div>
   </div>
@@ -33,6 +32,7 @@ lang: es
   <div class="row">
     <div class="col-sm-offset-1 col-lg-10 index-container-value-proposal">
       <p>{{ site.data.index.value-proposal }}</p>
+      <img class="img-responsive" src="{{ site.data.index.proposal-schema }}" />
     </div>
   </div>
 </section>
@@ -44,11 +44,11 @@ lang: es
       <h3 class="text-center">{{ site.data.index.specialities-title }}</h3>
       <div class="row">
         <div class="col-md-5">
-          <img src="img/speciality-1.svg" />
+          <img src="{{ site.data.index.susteinable-investment-image }}" />
           <h4><a href="{{site.baseurl}}/especialidades.html">{{ site.data.index.susteinable-investment-title }}</a></h4>
         </div>
         <div class="col-md-offset-2 col-md-5">
-          <img src="img/speciality-2.svg" />
+          <img src="{{ site.data.index.renewable-energy-image }}" />
           <h4><a href="{{site.baseurl}}/especialidades.html">{{ site.data.index.renewable-energy-title }}</a></h4>
         </div>
       </div>
@@ -79,8 +79,8 @@ lang: es
       <h3 class="text-center">{{ site.data.clients.title-es }}</h3>
       <ul class="row">
         {% for client in site.data.clients.client %}
-          <li class="col-sm-2">
-            <a href="{{ client.link }}" target="_blank" class="section-clients-image__height"><img class="img-responsive" src="{{ client.image }}"></a>
+          <li class="col-sm-2 {% if forloop.rindex == 2 %} col-sm-offset-4 {% endif %}">
+            <a href="{{ client.link }}" target="_blank" class="index-container-image__height"><img class="img-responsive" src="{{ client.image }}"></a>
           </li>
         {% endfor %}
       </ul>
@@ -96,13 +96,14 @@ lang: es
       <ul class="row">
         {% for ally in site.data.allies.ally %}
           <li class="col-sm-4">
-            <a href="{{ ally.link }}" target="_blank"><img class="section-clients-image__height img-responsive" src="{{ ally.image }}"></a>
+            <a href="{{ ally.link }}" target="_blank"><img class="index-container-image__height img-responsive" src="{{ ally.image }}"></a>
           </li>
         {% endfor %}
       </ul>
     </div>
   </div>
 </section>
+
 <!-- Contacto -->
 <section class="container">
   <div class="row index-row__padding contact-block">

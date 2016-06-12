@@ -17,7 +17,7 @@ lang: en
         <div class="col-md-offset-2 col-md-8 col-xs-offset-1 col-xs-10 index-welcome-screen-divisor">
         </div>
         <div class="col-md-offset-3 col-md-6">
-          <h2>Applied Research for Climate Financing</h2>
+          <h2>{{ site.data.home.secondary-sentence }}</h2>
           <a href="#ver-mas" class="arrow bounce">
             <img src="img/down-arrow.svg" alt="arrow">
           </a>
@@ -32,31 +32,24 @@ lang: en
 <section id="ver-mas" class="container index-container">
   <div class="row">
     <div class="col-sm-offset-1 col-lg-10 index-container-value-proposal">
-      <p>Nuestro trabajo promueve la comunicación entre personas de segmentos tradicionalmente separados: organismos internacionales, productores rurales, entidades gubernamentales e inversionistas.</p>
-      <p>Encontramos aliados locales y construimos redes de colaboración sólidas. En todo lugar hay personas y organizaciones que trabajan en los mismos temas, así que parte de nuestra labor es acercanos a ellos, aprender de su experiencia y hacer más fluida la comunicación entre ellos y con organismos externos. Trabajamos para encontrar las coincidencias de intereses.</p>
+      <p>{{ site.data.home.value-proposal }}</p>
     </div>
   </div>
 </section>
 
 <!-- Especialidades -->
 <section class="container index-container">
-  <div class="row section-row__padding">
+  <div class="row index-row__padding">
     <div class="col-sm-offset-1 col-sm-10">
-      <h3 class="text-center">ESPECIALIDADES</h3>
+      <h3 class="text-center">{{ site.data.home.specialities-title }}</h3>
       <div class="row">
         <div class="col-md-5">
-          <img src="img/speciality-1.svg" />
-          <h4>Inversión forestal y en producción sustentable</h4>
-          <p>Tenemos experiencia y método desarrollados para el estudio de las condiciones de financiamiento de productores pequeños y medianos en el sureste mexicano.</p>
-          <p>Hemos explorado de cerca el funcionamiento de subsidios públicos, créditos privados y subvenciones internacionales en apoyo a la producción y transformación sustentable.</p>
-          <p>Contamos con capacidades desarrolladas para trabajar con entidades financieras locales e internacionales en el diseño de productos financieros y esquemas de implementación que aprovechen las condiciones actuales y trabajen al lado de los productores para aumentar sus capacidades, mejorar su productividad, reducir los efectos negativos al medio ambiente y crear pilotos o zonas de producción sostenible.</p>
+          <img src="{{ site.data.home.susteinable-investment-image }}" />
+          <h4><a href="{{site.baseurl}}/specialities.html">{{ site.data.home.susteinable-investment-title }}</a></h4>
         </div>
         <div class="col-md-offset-2 col-md-5">
-          <img src="img/speciality-2.svg" />
-          <h4>Ampliación del uso de energías renovables</h4>
-          <p>Tenemos experiencia y método desarrollados para el estudio de las condiciones de financiamiento de productores pequeños y medianos en el sureste mexicano.</p>
-          <p>Hemos explorado de cerca el funcionamiento de subsidios públicos, créditos privados y subvenciones internacionales en apoyo a la producción y transformación sustentable.</p>
-          <p>Contamos con capacidades desarrolladas para trabajar con entidades financieras locales e internacionales en el diseño de productos financieros y esquemas de implementación que aprovechen las condiciones actuales y trabajen al lado de los productores para aumentar sus capacidades, mejorar su productividad, reducir los efectos negativos al medio ambiente y crear pilotos o zonas de producción sostenible.</p>
+          <img src="{{ site.data.home.renewable-energy-image }}" />
+          <h4><a href="{{site.baseurl}}/specialities.html">{{ site.data.index.renewable-energy-title }}</a></h4>
         </div>
       </div>
     </div>
@@ -65,52 +58,79 @@ lang: en
 
 <!-- Proyectos sobresalientes -->
 <section class="container index-container">
-  <div class="row section-row__padding projects-block">
+  <div class="row index-row__padding">
     <div class="col-sm-offset-1 col-sm-10">
-      <h3 class="text-center">PROYECTOS SOBRESALIENTES</h3>
-      <div class="row projects-block-row__padding">
-        <div class="col-sm-4">
-          <img class="img-responsive" src="img/project-reference.jpg" />
-          <h4><a href="/">Diagnóstico de las condiciones de crédito privado y público para el sector primario (agricultura, ganadería, silvicultura)</a></h4>
-        </div>
-        <div class="col-sm-4">
-          <img class="img-responsive" src="img/project-reference.jpg" />
-          <h4><a href="/">Diseño de instrumento financiero para actividades bajas en carbono en la península de Yucatán</a> </h4>
-        </div>
-        <div class="col-sm-4">
-          <img class="img-responsive" src="img/project-reference.jpg" />
-          <h4><a href="/">Puesta en marcha del Fondo Climático de la Península de Yucatán</a></h4>
-        </div>
-      </div>
+      <h3 class="text-center">{{ site.data.home.outstanding-projects-title }}</h3>
+      <ul class="row">
+        {% for outstanding-projects in site.data.home.outstanding-projects %}
+          <li class="col-sm-4">
+            <img class="img-responsive" src="{{ outstanding-projects.image }}" />
+            <p><a href="{{ site.baseurl }}/proyectos.html#{{ outstanding-projects.id }}">{{ outstanding-projects.name }}</a></p>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>
+
+<!-- Clientes -->
+<section class="container index-container">
+  <div class="row index-row-ul__padding">
+    <div class="col-sm-offset-1 col-sm-10">
+      <h3 class="text-center">{{ site.data.clients.title-es }}</h3>
+      <ul class="row">
+        {% for client in site.data.clients.client %}
+          <li class="col-sm-2 {% if forloop.rindex == 2 %} col-sm-offset-4 {% endif %}">
+            <a href="{{ client.link }}" target="_blank" class="index-container-image__height"><img class="img-responsive" src="{{ client.image }}"></a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Aliados -->
+<section class="container index-container">
+  <div class="row index-row-ul__padding">
+    <div class="col-sm-offset-1 col-sm-10">
+      <h3 class="text-center">{{ site.data.allies.title-es }}</h3>
+      <ul class="row">
+        {% for ally in site.data.allies.ally %}
+          <li class="col-sm-4">
+            <a href="{{ ally.link }}" target="_blank"><img class="index-container-image__height img-responsive" src="{{ ally.image }}"></a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
 <!-- Contacto -->
 <section class="container">
-  <div class="row section-row__padding contact-block">
+  <div class="row index-row__padding contact-block">
     <div class="col-sm-offset-4 col-sm-4 " id="contact-block">
-      <h3 class="text-center">CONTACTANOS</h3>
+      <h3 class="text-center">CONTACT</h3>
       <form class="form-horizontal" action="https://formspree.io/david@hastasiempre.mx" method="POST">
         <div class="form-group contact-block-form-group">
-          <label class="col-sm-2 control-label">Nombre:</label>
+          <label class="col-sm-2 control-label">Name:</label>
           <div class="col-sm-10">
             <input type="name" class="form-control contact-block-form-control__focus contact-block-form-control__padding">
           </div>
         </div>
         <div class="form-group contact-block-form-group">
-          <label class="col-sm-2 control-label">Correo:</label>
+          <label class="col-sm-2 control-label">Email:</label>
           <div class="col-sm-10">
             <input type="email" class="form-control contact-block-form-control__focus contact-block-form-control__padding-case-2">
           </div>
         </div>
         <div class="form-group contact-block-form-group">
-          <label class="col-sm-2 control-label">Mensaje:</label>
+          <label class="col-sm-2 control-label">Message:</label>
           <div class="col-sm-10">
             <textarea class="contact-block-textarea form-control contact-block-form-control__focus contact-block-form-control__padding" rows="3"></textarea>
           </div>
         </div>
         <div class="form-group">
-          <button type="submit" class="contact-block-submit-button">ENVIAR</button>
+          <button type="submit" class="contact-block-submit-button">SUBMIT</button>
         </div>
       </form>
     </div>

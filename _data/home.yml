@@ -1,0 +1,32 @@
+secondary-sentence:  Applied Research for Climate Financing
+
+value-proposal: >
+  We promote financing for climate change through applied research and by facilitating dialogue between people and institutions from traditionally separate contexts: international entities, rural producers, universities, government bodies and investors.
+proposal-schema: img/proposal-schema.svg
+
+specialities-title: Specialties
+susteinable-investment-title: Sustainable Investment
+susteinable-investment-image: img/speciality-1.svg
+sustainable-investment-description: |
+  <p></p>
+renewable-energy-title: Fostering Renewable Energies
+renewable-energy-image: img/speciality-2.svg
+renewable-energy-description: |
+  <p></p>
+
+outstanding-projects-title: Outstanding Projects
+outstanding-projects:
+  - name: >
+      Yucatan Peninsula Climate Action Fund
+    image: img/projects/fondo-climatico-es.svg
+    id: yucatan-peninsula-climate
+
+  - name: >
+      Constructing Value Chains: Using Agricultural and Forest Biomass for Energy Applications
+    image: img/projects/construyendo-cadenas.jpg
+    id: constructing-value-chains
+
+  - name: >
+      Financial Instrument for Low Carbon Activities
+    image: img/projects/actividades-bajas-carbono.jpg
+    id: low-carbon-activities

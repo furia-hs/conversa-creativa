@@ -13,12 +13,12 @@ lang: es
   </div>
 </div>
 
-<section class="section-projects-block">
+<section class="section-content-block">
   <ul class="">
     {% for current in site.data.proyectos.current %}
       <li class="row" {% if current.id %}id="{{ current.id }}"{% endif %}>
         <div class="col-sm-offset-1 col-sm-3">
-          <img class="section-projects-image__margin" src="{{ current.image }}">
+          <img class="section-image__margin" src="{{ current.image }}">
         </div>
         <div class="col-sm-7">
           <h3>{{ current.name }}</h3>
@@ -40,7 +40,7 @@ lang: es
   </div>
 </div>
 
-<section class="section-projects-block">
+<section class="section-content-block">
   <ul class="">
     {% for previous in site.data.proyectos.previous %}
       <li class="row" {% if previous.id %}id="{{ previous.id }}"{% endif %}>
