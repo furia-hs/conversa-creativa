@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Equipo | INNKU
+title: Equipo | Conversa Creativa
 description:
 keywords:
 ref: equipo
@@ -23,12 +23,14 @@ lang: es
   <ul class="">
     {% for equipo in site.data.equipo.members %}
       <li class="row">
-        <div class="col-sm-offset-1 col-sm-4">
+        <div class="col-sm-offset-1 col-sm-11">
+          <h2>{{ equipo.name }}</h2>
+          <h3>{{ equipo.position }} | <a href="mailto:{{ equipo.email }}">{{ equipo.email }}</a></h3>
+        </div>
+        <div class="col-sm-offset-1 col-sm-3">
           <img class="section-image__margin" src="{{ equipo.image }}">
         </div>
-        <div class="col-sm-6">
-          <h2>{{ equipo.name }}</h2>
-          <h3>{{ equipo.position }} | {{ equipo.email }}</h3>
+        <div class="col-sm-7">
           {{ equipo.description}}
         </div>
       </li>

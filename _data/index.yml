@@ -3,22 +3,28 @@ secondary-sentence:  Investigación aplicada al financiamiento climático
 value-proposal: >
   Promovemos el financiamiento para el cambio climático a través de la investigación aplicada y la comunicación entre personas e instituciones de contextos tradicionalmente separados: organismos internacionales, productores rurales, universidades, entidades gubernamentales e inversionistas.
 proposal-schema: img/proposal-schema.svg
+proposal-title-1: Investigamos
+proposal-image-1: img/proposal-1.svg
+proposal-title-2: Comunicamos
+proposal-image-2: img/proposal-2.svg
+proposal-title-3: Acompañamos
+proposal-image-3: img/proposal-3.svg
 
 specialities-title: Especialidades
 susteinable-investment-title: Inversión sustentable
 susteinable-investment-image: img/speciality-1.svg
 sustainable-investment-description: |
-  <p></p>
+  <p>Promovemos la inversión en procesos productivos sostenibles vía: diseño de portafolios, identificación y evaluación de proyectos, diseño de mecanismos de financiamiento específicos y vinculación entre sectores.</p>
 renewable-energy-title: Fomento de energías renovables
 renewable-energy-image: img/speciality-2.svg
 renewable-energy-description: |
-  <p></p>
+  <p>Fomentamos el uso de energía renovable en pequeñas unidades económicas a través de la investigación y análisis de factibilidad técnica y financiera.</p>
 
 outstanding-projects-title: Proyectos sobresalientes
 outstanding-projects:
   - name: >
       Fondo climático de la península de Yucatán
-    image: img/projects/fondo-climatico-es.svg
+    image: img/projects/fondo-climatico.jpg
     id: fondo-climatico-de-la-peninsula-de-yucatan
 
   - name: >
