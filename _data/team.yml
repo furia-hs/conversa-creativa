@@ -1,62 +1,70 @@
 title: Our team
 description: |
-  <p>Nuestro capital de trabajo más valioso son las personas que conforman nuestro equipo.<p>
-  <p>Joven · formación académica y profesional sólida · disposición a asumir los retos  de nuestros clientes y socios como propios · flexibilidad para trabajar con herramientas estadísticas, cartográficas y en campo</p>
-  <p>Las personas felices son más creativas. Un pilar de nuestro modelo de negocio es que los integrantes del equipo se desarrollen profesional y personalmente, que se actualicen y capaciten en el conocimiento de vanguardia sobre financiamiento climático. Cuidamos a nuestro equipo como cuidamos a nuestros clientes.</p>
+  <p class="text-center">Young · solid academic and professional training · willingness to take on our client and partner’s challenges as our own · flexibility, working with statistical and cartographic tools and in the field<p>
+  <p>Our most valuable work resource is the people who make up our team.</p>
+  <p>Happy people are more creative. A pillar of our business model is that our team members develop professionally and personally, that they are continually updating and training to be at the cutting edge of climate financing. We take care of our team like we take care of our clients.</p>
 
 members:
   - name: Adriana Abardía Martínez
-    position: Dirección y de todo
+    position: Direction and Everything
     email: adriana@conversamexico.com
     description: |
-      <p>Soy Oaxaqueña y fundé Conversa Creativa en 2013 con la idea de mejorar las condiciones para la inversión sustentable pública y privada en México.  Desde entonces trabajamos para generar herramientas, conocimiento aplicado e interacción entre sectores público, privado y social. Me gusta el trabajo sólido técnicamente y en equipos diversos, con comunicación fluida y actualización constante.</p>
-      <p>Estudié ciencia política en el CIDE y economía del desarrollo en la Universidad de Roma. Me encantaría seguir estudiando y en cuanto encuentre tiempo me especializaré en financiamiento climático y movilización de capital privado. Desde 2005 he trabajado en Alternativas y Capacidades A.C., SEDESOL, SEGOB y en la Secretaría de Finanzas del Gobierno del estado de Oaxaca.</p>
-    image: img/team/team-image.jpg
+      <p>I am an Oaxaca native and in 2013 founded Conversa Creativa with the idea of adding my grain of sand to improving sustainable public and private investment in Mexico. Since then I have worked to generate tools, apply knowledge and promote interaction between the public, private and social sectors. I like work with solid technical foundations and in diverse groups, with fluid communication and constant innovation.</p>
+      <p>I studied Political Science at the Centro de Investigación y Docencia Económicas (CIDE) and hold a Master’s in Development Economics at the University of Rome Tor Vergata. I would like to continue studying and when I have the opportunity I plan to specialize in climate funding and mobilizing private capital. Since 2005 I have worked in Alternativas y Capacidades A.C., the Secretary of Social Development, the Secretary of the Interior and in the Secretary of Finance of the Government of the State of Oaxaca.</p>
+    image: img/team/adriana.jpg
 
   - name: Mireya González Quintero
-    position: Análisis económico e investigación
+    position: Economic Analysis and Research
     email: mireya@conversamexico.com
     description: |
-      <p>Trabajo en Conversa Creativa desde el 2014. Estudié ciencias empresariales en la Universidad Tecnológica de la Mixteca y una maestría en economía en la Universidad Autónoma Metropolitana.  Me gusta aprender cosas nuevas y espero en el futuro estudiar otra maestría o doctorado.</p>
-      <p>He trabajado en el sector público y privado desde el 2004, en CACTUS A.C., en la Universidad del Mar, en la oficina de inversiones de la Secretaría de Finanzas del gobierno del estado de Oaxaca y como profesional independiente.</p>
-    image: img/team/team-image.jpg
+      <p>I have worked at Conversa Creativa since 2014. I studied Business Sciences at the Universidad Tecnológica de la Mixteca and hold a Master’s in Economics at the Universidad Autónoma Metropolitana. I love learning new things and in the future I hope to study for another master’s degree or a doctorate.</p>
+      <p>I have worked in the public and private sectors since 2004, in CACTUS A.C., in the Universidad del Mar, in the Investment Office at the Secretary of Finances of the Government of the State of Oaxaca and as a freelancer.</p>
+    image: img/team/mireya.jpg
 
   - name: Lishey Lavariega Aguilar
-    position: Energía renovable e investigación
+    position: Renewable Energy and Research
     email: lishey@conversamexico.com
     description: |
-      <p>Trabajo en Conversa Creativa desde el 2014 y desde entonces he podido participar en proyectos e investigaciones sobre financiamiento sustentable relacionado a esquemas para la mitigación del Cambio Climático. Estoy segura que el reto global ambiental necesita esfuerzos serios y trabajo en equipos multidisciplinarios, pero que también hace falta diálogo entre los sectores, la ciencia y las personas; esto es lo que hacemos en Conversa.</p>
-      <p>Estudié la licenciatura en Física en la Universidad de Oaxaca y un máster en Energías Renovables y Combustibles para el Futuro en la Universidad de Madrid. Me apasiona entender el mundo en que vivimos a través de la termodinámica y proponer soluciones desde el enfoque científico y técnico.</p>
-    image: img/team/team-image.jpg
+      <p>I have worked in Conversa Creativa since 2014 and since then I have had the opportunity to participate in projects and research on sustainable financing for plans to mitigate climate change. I am convinced that the global environmental challenge requires serious efforts and work in multidisciplinary teams. We need dialogue between different sectors, sciences and people; which is what Conversa does.</p>
+      <p>I have a degree in Physics from the University of Oaxaca and hold a Master’s in Renewable Energies and Fuels for the Future from the University of Madrid. I am passionate about understanding the world we live in through thermodynamics and proposing solutions from a scientific and technical perspective.</p>
+    image: img/team/lishey.jpg
 
   - name: Emmanuel Mejía León
-    position: Planeación, cartografía y trabajo de campo
+    position: Planning, Cartography and Fieldwork
     email: emmanuel@conversamexico.com
     description: |
-      <p>Me uní a Conversa Creativa en un ejercicio de la casualidad y ahora me encargo de la parte cartográfica y de análisis de información estadística. Interesado en desarrollo sustentable y cooperativismo he intentado e intento dirigir mis esfuerzos a esas áreas.</p>
-      <p>Estudié ingeniería civil y la maestría en planificación en el Instituto Politécnico Nacional y he trabajado para ese instituto, gobiernos locales, gobierno canadiense, organizaciones no gubernamentales y el poder legislativo.</p>
-    image: img/team/team-image.jpg
+      <p>I joined Conversa Creativa by chance and now I am responsible for cartography and the analysis of statistical information. I am interested in sustainable development and cooperativism and I channel my efforts towards these areas.</p>
+      <p>I studied Civil Engineering and hold a Master’s in Planning from the Instituto Politécnico Nacional and I have worked for this institute, local governments, the Canadian government, NGOs and the Mexican Legislative Branch.</p>
+    image: img/team/emmanuel.jpg
 
   - name: Belem Romero
-    position: Diseño editorial y comunicación visual
+    position: Editorial Design and Visual Communication
     email: belem@conversamexico.com
     description: |
-      <p>Diseñadora Especialista en producción editorial y comunicación, egresado de la Universidad Autónoma Metropolitana con especialidad de la Escuela de Diseño de Bellas Artes, he trabajado por más de 16 años en proyectos en el sector público y privado. Estoy en Conversa desde sus inicios, y ha sido un gran aprendizaje conocer y aprender de sus proyectos, y de su gente.</p>
-      <p>Actualmente...</p>
-    image: img/team/team-image.jpg
+      <p>I am a designer specializing in editorial production and communication. I graduated from the Universidad Autónoma Metropolitana with a specialism from the Escuela de Diseño de Bellas Artes. I have worked for more than 16 years in projects in the public and private sectors. I have been in Conversa since it was founded and I have learned so much from the people and projects.</p>
+    image: img/team/belem.jpg
 
   - name: Flor de los Ángeles Osante Altamirano
-    position: Dirección y de todo
+    position: Administration and Logistics
     email: flor@conversamexico.com
     description: |
-      <p>Estudié Administración de Empresas en la Universidad Autónoma Benito Juárez de Oaxaca, he trabajado para el Gobierno del Estado de Oaxaca, en el Comité de Planeación, Programación y Presupuestación y en el Centro de Información Estadística y Documental, en el área administrativa.</p>
-      <p>Me incorporé a Conversa Creativa en agosto del 2015 para apoyar en tareas administrativas. Me siento muy contenta de formar parte del equipo, porque es gente profesional, trabajadora y amigable. Considero que he aprendido mucho de ellos.</p>
-    image: img/team/team-image.jpg
+      <p>I studied Business Administration at the Universidad Autónoma Benito Juárez de Oaxaca. I have worked in the Planning, Programing and Budgeting Committee for the Government of the State of Oaxaca and in the administrative department of the Center for Statistical and Documentary Information.</p>
+      <p>I joined Conversa Creativa in August 2015 to provide administrative support. I am very happy to be part of such a professional, hardworking and friendly team. I have learned so much from them.</p>
+    image: img/team/flor.jpg
+
+  - name: Alina Caravantes Martínez
+    position: Information Analyst and Social Mapping
+    email: alinacaravantes@gmail.com
+    description: |
+      <p>Without translation - Soy egresada de la carrera de Antropología Histórica de la Universidad Veracruzana. Estoy interesada en adquirir conocimientos en diversos ámbitos profesionales que me permitan tener un mejor alcance a problemáticas a las que hoy en día nos enfrentamos.</p>
+      <p>Dentro de la formación académica que recibí se encuentra el análisis del vínculo de los grupos humanos con su entorno natural, de la influencia del uno con el otro y del desarrollo de proyectos que posibiliten la contribución a disminuir las afectaciones a nuestro entorno natural.</p>
+    image: img/team/alina.jpg
+
 
   - name: Gastón Díaz Arango
-    position: Practicante. Técnico Superior en Energías Renovables
-    email: gaston@conversamexico.com
+    position: Intern
+    email: gastondiazarango@hotmail.com
     description: |
-      <p>Soy estudiante de sexto cuatrimestre de la carrera técnico superior universitario en Energías Renovables en el Área Solar en la Universidad Tecnológica de los Valles Centrales de Oaxaca. Estoy en busca de conocimiento tecnológico y de técnicas para fortalecer mis competencias personales.</p>
-      <p>Tengo el objetivo de aplicar mis conocimientos en  la generación de energía limpia a partir de materiales orgánicos, el sol y el aire. Quiero poner mi granito de arena mediante el desarrollo de proyectos con menor impacto ambiental que ayuden a resolver la contaminación, abonen al desarrollo y mejoren la calidad de vida de las personas.</p>
-    image: img/team/team-image.jpg
+      <p>I am a student taking an advanced technical degree in Renewable Energies in the Solar Area at the Universidad Tecnológica de los Valles Centrales de Oaxaca. I am seeking technological knowledge and techniques to strengthen my personal competencies.</p>
+      <p>My goal is to apply my knowledge to the generation of clean energies using organic materials, the sun and air. I want to make a contribution to the development of projects with a lower environmental impact that help to reduce pollution, enrich development and improve people’s quality of life.</p>
+    image: img/team/gaston.jpg

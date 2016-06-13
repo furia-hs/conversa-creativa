@@ -1,0 +1,45 @@
+title: Specialties
+relevant-experience-title: Relevant Experience
+
+susteinable-investment-title: Sustainable Investment
+sustainable-investment-image: img/specialities/speciality-tall-1.svg
+sustainable-investment-description: >
+  <p>We concentrate on the agriculture, livestock and forestry sectors.</p>
+  <p>We have the experience and have developed methodologies to study the financing conditions of small and medium producers in Southeast Mexico.</p>
+  <p>We have closely explored how public subsidies, private credits and international grants to support sustainable production and transformation work.</p>
+  <p>We have developed our capacity to work with local and international financial entities to design financial products and implementation schemes that harness the current conditions and work alongside the producers to increase their capacities, improve their productivity, reduce the negative effects on the environment and to create pilots or sustainable production zones.</p>
+susteinable-investment-id: susteinable-investment
+
+# Sustainable Relevant Experience
+sre:
+  - name: >
+      Yucatan Peninsula Climate Action Fund
+    id: yucatan-peninsula-climate-action-fund
+
+  - name: >
+      Financial Instrument for Low Carbon Activities in the Yucatan Peninsula
+    id: low-carbon-activities
+
+  - name: >
+      Guide to Forest Investment in Mexico
+    id: guide-forest-investment-mexico
+
+  - name: >
+      Design a Financing Mechanism for REDD+ in Mexico
+    id: design-financing-mechanism
+
+renewable-energy-title: Fostering Renewable Energies
+renewable-energy-image: img/specialities/speciality-tall-2.svg
+renewable-energy-description: |
+  <p>We work to expand the use of renewable energies in small economic units.</p>
+  <p>We have the tools and methodologies to estimate a natural resource’s potential as a source of renewable energy, primarily for mature and competitive technologies.</p>
+  <p>We are informed about new technologies harnessing renewable sources and their foreseeable development.</p>
+  <p>We know how to connect financing with international strategy investments for projects that mitigate climate change, and sustainable development projects based on renewable energies.</p>
+  <p>At a local level we have researched in depth national management, support and finance schemes for adopting energy efficient technologies in SMEs and the production sector.</p>
+renewable-energy-id: fostering-renewable-energies
+
+# Renewable Energy Relevant Experience
+rere:
+  - name: >
+      Constructing Value Chains: Using Agricultural and Forest Biomass for Energy Applications
+    id: constructing-value-chains

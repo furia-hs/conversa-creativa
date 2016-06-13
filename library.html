@@ -9,6 +9,27 @@ lang: en
 
 <div class="row section-main-title">
   <div class="col-lg-12">
-    <h1>Publications</h1>
+    <h2>{{ site.data.library.title }}</h2>
   </div>
 </div>
+
+<section class="row section-content">
+  <div class="col-sm-offset-1 col-sm-10 section-content-element__margin">
+    {{ site.data.library.description }}
+  </div>
+</section>
+
+<section class="row section-content">
+  <div class="col-sm-offset-1 col-sm-10">
+    <h3>{{ site.data.library.suggestions-title }}</h3>
+    <ul>
+      {% for suggestions in site.data.library.suggestions %}
+        <li class="row">
+          <div class="col-sm-12">
+            <p><i class="fa fa-book" aria-hidden="true"></i>{{ suggestions.name }}- <a href="{{ suggestions.link }}">{{ suggestions.link }}</a></p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
