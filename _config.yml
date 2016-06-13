@@ -29,9 +29,7 @@ t:
     biblioteca:
       name: "BIBLIOTECA"
       url: "/biblioteca.html"
-    inversion:
-      name: "INVERSIÓN SUSTENTABLE"
-      url: "/inversion-sustentable.html"
+
   en:
     home:
       name: "HOME"
@@ -48,9 +46,7 @@ t:
     biblioteca:
       name: "LIBRARY"
       url: "/library.html"
-    inversion:
-      name: "SUSTAINABLE INVESTMENT"
-      url: "/sustainable-investment.html"
+
 
 # Build settings
 markdown: kramdown
