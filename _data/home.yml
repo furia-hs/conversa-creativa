@@ -3,12 +3,23 @@ secondary-sentence:  Applied Research in Climate Finance
 value-proposal: >
   We promote financing for climate change through applied research and by facilitating dialogue between people and institutions from traditionally separate contexts: international entities, rural producers, universities, government bodies and investors.
 proposal-schema: img/proposal-schema.svg
-proposal-title-1: We investigated
+proposal-title-1: Research
 proposal-image-1: img/proposal-1.svg
-proposal-title-2: We communicate
+proposal-text-1: >
+    <li>Project design and evaluation</li>
+    <li>Cartography and statistics</li>
+    <li>Fieldwork</li>
+proposal-title-2: Communication and Connection
 proposal-image-2: img/proposal-2.svg
-proposal-title-3: We accompany
+proposal-text-2: >
+    <li>Physical and virtual connections</li>
+    <li>Visual tools</li>
+    <li>Specialized publications</li>
+proposal-title-3: Accompaniment
 proposal-image-3: img/proposal-3.svg
+proposal-text-3: >
+    <li>Consultancy for project implementation</li>
+    <li>Piloting financial models</li>
 
 specialities-title: Specialties
 susteinable-investment-title: Sustainable Investment

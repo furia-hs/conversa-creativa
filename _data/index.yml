@@ -5,10 +5,21 @@ value-proposal: >
 proposal-schema: img/proposal-schema.svg
 proposal-title-1: Investigamos
 proposal-image-1: img/proposal-1.svg
+proposal-text-1: >
+    <li>Diseño y evaluación de proyectos</li>
+    <li>Cartografía y estadística</li>
+    <li>Trabajo de campo</li>
 proposal-title-2: Comunicamos
 proposal-image-2: img/proposal-2.svg
+proposal-text-2: >
+    <li>Vinculación presencial y en línea</li>
+    <li>Herramientas visuales</li>
+    <li>Publicaciones especializadas</li>
 proposal-title-3: Acompañamos
 proposal-image-3: img/proposal-3.svg
+proposal-text-3: >
+    <li>Asesoría a la implementación de proyectos</li>
+    <li>Pilotaje de modelos de financiamiento</li>
 
 specialities-title: Especialidades
 susteinable-investment-title: Inversión sustentable

@@ -184,6 +184,19 @@ p {
   margin-left: 0;
 }
 
+.index-container-list__style {
+
+  li {
+    font-weight: 300;
+    padding-left: 18px;
+  }
+
+  li:before {
+      content: "• ";
+      color: $brand-color;
+  }
+}
+
 .index-container img {
   margin-bottom: 20px;
 }
@@ -331,24 +344,12 @@ p {
   }
 }
 
-.section-content h3, .section-content h4 {
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.section-content p {
+.section-page-description {
+  border-bottom: 1px solid #cccccc;
   font-weight: 300;
-}
-
-.section-content-element__margin {
-  margin-bottom: 25px;
-}
-
-.section-content ul {
-  list-style: none;
-  margin-left: 0px;
   margin-bottom: 80px;
+  padding-bottom: 80px;
+  text-align: justify;
 }
 
 .section-content a {
@@ -365,58 +366,73 @@ p {
   color: $brand-color;
 }
 
-.section-page-description {
-  border-bottom: 1px solid #cccccc;
-  font-weight: 300;
-  margin-bottom: 80px;
-  padding-bottom: 80px;
-  text-align: justify;
-}
-
-.section-content-block ul {
+.section-content ul {
   list-style: none;
   margin-left: 0px;
   margin-bottom: 80px;
 }
 
-.section-content-block li {
+.section-content ol {
+  list-style-type: decimal;
+}
+
+.section-content li {
   margin-bottom: 40px;
 }
 
-.section-content-block ol > li {
+.section-content ol > li {
   font-weight: 300;
 }
 
-.section-content-blockh2, .section-content-block h3, .section-content-block p {
+
+
+.section-content h2, .section-content h3, .section-content h4, .section-content p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
-.section-content-block h2 {
+.section-content h2 {
   font-size: 24px;
   margin-bottom: 4px;
 }
 
-.section-content-block h3 {
+.section-content h3 {
   font-size: 20px;
 }
 
-.section-content-block h3 a {
+/*.section-content h3, .section-content h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}*/
+
+.section-content h3 a {
   text-decoration: none;
 }
 
-.section-content-block h3 a:hover {
+.section-content h3 a:hover {
   color: desaturate($brand-color, 20%);
 }
 
-.section-content-block p {
+.section-content p {
   text-align: justify;
 }
 
-.section-content-block a {
+.section-content a {
   color: black;
   font-weight: 300;
   text-decoration: underline;
+}
+
+.section-content-element__margin {
+  margin-bottom: 25px;
+}
+
+.section-content-anchor {
+  padding-top: 60px;
+  margin-top: -60px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
 }
 
 .section-image__margin {
