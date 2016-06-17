@@ -92,7 +92,7 @@ lang: es
       <h3 class="text-center">{{ site.data.index.projects-title }}</h3>
       <ul class="row">
         {% for projects-cat in site.data.index.projects-cat %}
-          <li class="col-sm-6">
+          <li class="col-sm-6 index-container-li__margin">
             <div class="row">
               <img class="col-sm-4 img-responsive" src="{{ projects-cat.image }}" />
               <p class="col-sm-8"><a href="{{ site.github.url }}/proyectos.html#{{ projects-cat.id }}">{{ projects-cat.name }}</a></p>
