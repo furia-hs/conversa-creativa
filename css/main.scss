@@ -442,6 +442,10 @@ p {
   font-weight: 300;
 }
 
+.section-content__margin {
+  margin-bottom: 80px;
+}
+
 .section-content a:hover {
   color: $brand-color;
   text-decoration: none;
@@ -487,4 +491,8 @@ p {
 
 .project-page-map {
   stroke-width: 3;
+}
+
+.form-control {
+  background-color: #fdfdfd;
 }
