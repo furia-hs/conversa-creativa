@@ -17,15 +17,15 @@ lang: en
   <div class="col-sm-offset-1 col-sm-3">
     <img src="{{ site.data.specialities.sustainable-investment-image }}" class="img-responsive" />
   </div>
-  <div class="col-md-7">
+  <div class="col-sm-offset-1 col-md-6">
     <h3>{{ site.data.specialities.susteinable-investment-title }}</h3>
     {{ site.data.specialities.sustainable-investment-description }}
     <h4>{{ site.data.specialities.relevant-experience-title }}</h4>
-    <ul>
+    <ul class="section-content-list">
       {% for sre in site.data.specialities.sre %}
         <li class="row">
           <div class="col-sm-12">
-            <p><i class="fa fa-bookmark-o" aria-hidden="true"></i><a href="{{ site.baseurl }}/proyectos.html#{{ sre.id }}">{{ sre.name }}</a></p>
+            <p><i class="fa fa-bookmark-o" aria-hidden="true"></i><a href="{{ site.baseurl }}/projects.html#{{ sre.id }}">{{ sre.name }}</a></p>
           </div>
         </li>
       {% endfor %}
@@ -37,15 +37,15 @@ lang: en
   <div class="col-sm-offset-1 col-sm-3">
     <img src="{{ site.data.specialities.renewable-energy-image }}" class="img-responsive" />
   </div>
-  <div class="col-md-7">
+  <div class="col-sm-offset-1 col-md-6">
     <h3>{{ site.data.specialities.renewable-energy-title }}</h3>
     {{ site.data.specialities.renewable-energy-description }}
     <h4>{{ site.data.specialities.relevant-experience-title }}</h4>
-    <ul>
+    <ul class="section-content-list">
       {% for rere in site.data.specialities.rere %}
         <li class="row">
           <div class="col-sm-12">
-            <p><i class="fa fa-bookmark-o" aria-hidden="true"></i><a href="{{ site.baseurl }}/proyectos.html#{{ rere.id }}">{{ rere.name }}</a></p>
+            <p><i class="fa fa-bookmark-o" aria-hidden="true"></i><a href="{{ site.baseurl }}/projects.html#{{ rere.id }}">{{ rere.name }}</a></p>
           </div>
         </li>
       {% endfor %}

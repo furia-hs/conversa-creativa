@@ -188,12 +188,13 @@ p {
 
   li {
     font-weight: 300;
-    padding-left: 18px;
+    display: table-row;
   }
 
   li:before {
       content: "• ";
       color: $brand-color;
+      display: table-cell;
   }
 }
 
@@ -204,7 +205,12 @@ p {
 .index-container a {
   color: black;
   font-weight: 300;
-  text-decoration: underline;
+}
+
+.index-container a:hover {
+  color: $brand-color;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 .index-row__padding {
@@ -215,10 +221,36 @@ p {
   margin: 80px 0 40px 0;
 }
 
-.index-container-image__height {
+.index-container-client-image {
   display: block;
-  min-height: 100px;
   margin: 0 auto;
+  max-height: 170px;
+  // iPhone 5 & 5S portrait & landscape
+  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    max-width: 60%;
+  }
+  // iPhone 6 in portrait & landscape
+  @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    max-width: 60%;
+  }
+  // iPhone 6 Plus in portrait & landscape
+  @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    max-width: 60%;
+  }
+}
+
+.index-container-image-allies {
+  display: block;
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+.index-page-schema {
+  margin-bottom: 80px;
+  stroke-width: 3;
+  @media only screen and (max-width: 767px) {
+    stroke-width: 20;
+  }
 }
 
 // Contact
@@ -300,7 +332,7 @@ p {
 
 //Site footer
 .footer__background-color {
-  background: darken($brand-color, 20%);
+  background: $brand-color;
 }
 
 .footer-block {
@@ -348,13 +380,8 @@ p {
   border-bottom: 1px solid #cccccc;
   font-weight: 300;
   margin-bottom: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 65px;
   text-align: justify;
-}
-
-.section-content a {
-  color: black;
-  text-decoration: underline;
 }
 
 .section-content img {
@@ -384,8 +411,6 @@ p {
   font-weight: 300;
 }
 
-
-
 .section-content h2, .section-content h3, .section-content h4, .section-content p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -400,18 +425,12 @@ p {
   font-size: 20px;
 }
 
-/*.section-content h3, .section-content h4 {
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}*/
-
 .section-content h3 a {
   text-decoration: none;
 }
 
 .section-content h3 a:hover {
-  color: desaturate($brand-color, 20%);
+  color: $brand-color;
 }
 
 .section-content p {
@@ -421,7 +440,24 @@ p {
 .section-content a {
   color: black;
   font-weight: 300;
-  text-decoration: underline;
+}
+
+.section-content a:hover {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+.section-content-list li {
+  margin-bottom: 0;
+}
+
+.section-content-list p {
+  display: table-row;
+}
+
+.section-content-list a {
+  display: table-cell;
+  padding-bottom: 5px;
 }
 
 .section-content-element__margin {
@@ -451,12 +487,4 @@ p {
 
 .project-page-map {
   stroke-width: 3;
-}
-
-.index-page-schema {
-  margin-bottom: 80px;
-  stroke-width: 3;
-  @media only screen and (max-width: 767px) {
-    stroke-width: 20;
-  }
 }

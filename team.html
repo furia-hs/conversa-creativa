@@ -19,11 +19,11 @@ lang: en
   </div>
 </section>
 
-<section class="section-content-block">
+<section class="row section-content">
   <ul>
     {% for team in site.data.team.members %}
       <li class="row">
-        <div class="col-sm-offset-1 col-sm-11">
+        <div class="col-sm-offset-1 col-sm-10">
           <h2>{{ team.name }}</h2>
           <h3>{{ team.position }} | <a href="mailto:{{ team.email }}">{{ team.email }}</a></h3>
         </div>

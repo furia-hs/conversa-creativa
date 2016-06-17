@@ -26,9 +26,6 @@ t:
     equipo:
       name: "EQUIPO"
       url: "/equipo.html"
-    biblioteca:
-      name: "BIBLIOTECA"
-      url: "/biblioteca.html"
 
   en:
     home:
@@ -43,10 +40,6 @@ t:
     equipo:
       name: "TEAM"
       url: "/team.html"
-    biblioteca:
-      name: "LIBRARY"
-      url: "/library.html"
-
 
 # Build settings
 markdown: kramdown

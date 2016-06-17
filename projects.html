@@ -9,52 +9,99 @@ lang: en
 
 <div class="row section-main-title">
   <div class="col-lg-12">
-    <h1>{{ site.data.projects.current-title }}</h1>
+    <h2>{{ site.data.projects.title }}</h2>
   </div>
 </div>
 
-<section class="section-projects-block">
-  <ul class="">
-    {% for current in site.data.projects.current %}
-      <li class="row">
-        <div class="col-sm-offset-1 col-sm-3">
-          <img class="section-projects-image__margin" src="{{ current.image }}">
-        </div>
-        <div class="col-sm-7">
-          <h2>{{ current.name }}</h2>
-          {{ current.description}}
-          <p><a href="{{ current.link}}">{{ current.link}}</a></p>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="row section-page-description">
+  <div class="col-sm-offset-1 col-sm-6">
+    {{ site.data.projects.description }}
+  </div>
+  <div class="col-sm-4">
+    <img class="svg project-page-map" src="img/projects/mapa.svg" />
+    <p class="text-center">
+      <small>Presencia regional</small>
+    </p>
+  </div>
 </section>
 
-<div class="row section-main-title">
-  <div class="col-lg-12">
-    <h1>{{ site.data.projects.previous-title }}</h1>
-  </div>
-</div>
-
-<section class="section-projects-block">
-  <ul class="">
-    {% for previous in site.data.projects.previous %}
-      <li class="row">
-        <div class="col-sm-offset-1 col-sm-3">
-          <img class="section-projects-image__margin" src="{{ previous.image }}">
-        </div>
-        <div class="col-sm-7">
-          <h2>{{ previous.name }}</h2>
-          {{ previous.description}}
-          <p><a href="{{ previous.link}}">{{ previous.link}}</a></p>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="section-content">
+  <ol class="col-sm-offset-1 col-sm-10">
+    <li>
+      <h3>{{ site.data.projects.cat-1-title }}</h3>
+      <ul>
+        {% for cat-1 in site.data.projects.cat-1 %}
+          <li class="section-content-anchor" id="{{ cat-1.id }}">
+            <h4>{{ cat-1.name }}</h4>
+            <div class="row readmore">
+              <div class="col-sm-3">
+                <img class="section-image__margin" src="{{ cat-1.image }}">
+              </div>
+              <div class="col-sm-9">
+                {{ cat-1.description }}
+                <p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li>
+      <h3>{{ site.data.projects.cat-2-title }}</h3>
+      <ul>
+        {% for cat-2 in site.data.projects.cat-2 %}
+          <li class="section-content-anchor" id="{{ cat-2.id }}">
+            <h4>{{ cat-2.name }}</h4>
+            <div class="row readmore">
+              <div class="col-sm-3">
+                <img class="section-image__margin" src="{{ cat-2.image }}">
+              </div>
+              <div class="col-sm-9">
+                {{ cat-2.description }}
+                <p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li>
+      <h3>{{ site.data.projects.cat-3-title }}</h3>
+      <ul class="row">
+        {% for cat-3 in site.data.projects.cat-3 %}
+          <li class="section-content-anchor" id="{{ cat-3.id }}">
+            <h4>{{ cat-3.name }}</h4>
+            <div class="row readmore">
+              <div class="col-sm-3">
+                <img class="section-image__margin" src="{{ cat-3.image }}">
+              </div>
+              <div class="col-sm-9">
+                {{ cat-3.description }}
+                <p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li>
+      <h3>{{ site.data.projects.cat-4-title }}</h3>
+      <ul>
+        {% for cat-4 in site.data.projects.cat-4 %}
+          <li class="section-content-anchor" id="{{ cat-4.id }}">
+            <h4>{{ cat-4.name }}</h4>
+            <div class="row readmore">
+              <div class="col-sm-3">
+                <img class="section-image__margin" src="{{ cat-4.image }}">
+              </div>
+              <div class="col-sm-9">
+                {{ cat-4.description }}
+                <p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ol>
 </section>
-
-<div class="row section-main-title">
-  <div class="col-lg-12">
-    <h1>{{ site.data.clients.title }}</h1>
-  </div>
-</div>

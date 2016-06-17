@@ -30,7 +30,7 @@ lang: es
 <!-- Propuesta de valor -->
 <section id="ver-mas" class="container index-container">
   <div class="row">
-    <div class="col-sm-offset-1 col-lg-10 index-container-value-proposal">
+    <div class="col-sm-offset-1 col-sm-10 index-container-value-proposal">
       <p>{{ site.data.index.value-proposal }}</p>
       <div class="row">
         <div class="col-sm-offset-3 col-sm-6">
@@ -70,34 +70,54 @@ lang: es
     <div class="col-sm-offset-1 col-sm-10">
       <h3 class="text-center">{{ site.data.index.specialities-title }}</h3>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <img src="{{ site.data.index.susteinable-investment-image }}" />
           <h4><a href="{{site.baseurl}}/especialidades.html">{{ site.data.index.susteinable-investment-title }}</a></h4>
-          {{ site.data.index.sustainable-investment-description }}
+          <p>{{ site.data.index.sustainable-investment-description }}</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <img src="{{ site.data.index.renewable-energy-image }}" />
           <h4><a href="{{site.baseurl}}/especialidades.html#{{ site.data.especialidades.renewable-energy-id }}">{{ site.data.index.renewable-energy-title }}</a></h4>
-          {{ site.data.index.renewable-energy-description }}
+          <p>{{ site.data.index.renewable-energy-description }}</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Proyectos sobresalientes -->
+<!-- Proyectos -->
 <section class="container index-container">
   <div class="row index-row__padding">
     <div class="col-sm-offset-1 col-sm-10">
-      <h3 class="text-center">{{ site.data.index.outstanding-projects-title }}</h3>
-      <ul class="row">
-        {% for outstanding-projects in site.data.index.outstanding-projects %}
-          <li class="col-sm-4">
-            <img class="img-responsive" src="{{ outstanding-projects.image }}" />
-            <p><a href="{{ site.baseurl }}/proyectos.html#{{ outstanding-projects.id }}">{{ outstanding-projects.name }}</a></p>
-          </li>
-        {% endfor %}
-      </ul>
+      <h3 class="text-center">Proyectos</h3>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row">
+            <img class="col-sm-4 img-responsive" src="img/projects/fondo-climatico.jpg" />
+            <p class="col-sm-8"><a href="{{ site.baseurl }}/proyectos.html#">Investigación aplicada  al financiamiento del desarrollo rural sustentable</a></p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="row">
+            <img class="col-sm-4 img-responsive" src="img/projects/fondo-climatico.jpg" />
+            <p class="col-sm-8"><a href="{{ site.baseurl }}/proyectos.html#">Diseño de plataformas de financiamiento sustentable</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row">
+            <img class="col-sm-4 img-responsive" src="img/projects/fondo-climatico.jpg" />
+            <p class="col-sm-8"><a href="{{ site.baseurl }}/proyectos.html#">Investigación aplicada al fomento de energías renovables para pequeñas empresas tradicionales</a></p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="row">
+            <img class="col-sm-4 img-responsive" src="img/projects/fondo-climatico.jpg" />
+            <p class="col-sm-8"><a href="{{ site.baseurl }}/proyectos.html#">Comunicación y vinculación</a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -109,8 +129,8 @@ lang: es
       <h3 class="text-center">{{ site.data.clients.title-es }}</h3>
       <ul class="row">
         {% for client in site.data.clients.client %}
-          <li class="col-sm-2 {% if forloop.rindex == 2 %} col-sm-offset-4 {% endif %}">
-            <a href="{{ client.link }}" target="_blank" class="index-container-image__height"><img class="img-responsive" src="{{ client.image }}"></a>
+          <li class="col-sm-2 col-xs-4 {% if forloop.rindex == 2 %} col-sm-offset-4 {% endif %}">
+            <a href="{{ client.link }}" target="_blank"><img class="index-container-client-image" src="{{ client.image }}"></a>
           </li>
         {% endfor %}
       </ul>
@@ -125,8 +145,8 @@ lang: es
       <h3 class="text-center">{{ site.data.allies.title-es }}</h3>
       <ul class="row">
         {% for ally in site.data.allies.ally %}
-          <li class="col-sm-4">
-            <a href="{{ ally.link }}" target="_blank"><img class="index-container-image__height img-responsive" src="{{ ally.image }}"></a>
+          <li class="col-sm-4 col-xs-4">
+            <a href="{{ ally.link }}" target="_blank"><img class="index-container-image-allies" src="{{ ally.image }}"></a>
           </li>
         {% endfor %}
       </ul>

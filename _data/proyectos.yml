@@ -7,12 +7,13 @@ cat-1-title: Investigación aplicada  al financiamiento del desarrollo rural sus
 cat-1:
   - name: >
       Escalando la inversión forestal en Durango
+    id: escalando-la-inversion-forestal-en-durango
     description: >
       <p>A solicitud de KfW, Conafor y FIRA, trabajaremos con empresas forestales comunitarias del estado de Durango en el diseño de un plan de negocios asociado a un programa de asistencia técnica que les permita escalar su producción, mejorar su desempeño ambiental y consolidarse en mercados nacionales e internacionales de madera.</p>
     image: img/projects/durango.jpg
   - name: >
       Diseño de un mecanismo de financiamiento para REDD+ en México. Diagnóstico
-    id: diseno-mecanismo-de-financiamiento
+    id: diseno-de-un-mecanismo-de-financiamiento
     description: >
       <p>El enfoque de REDD+ en México es el impulso al desarrollo rural sustentable y el manejo integrado de paisaje. Nuestro país no implementará REDD+ a nivel de proyecto o predio, sino a escala regional y paisajística. Este enfoque es una gran oportunidad para mejorar la planeación, coordinación e implementación de intervenciones públicas y privadas a escala regional.</p>
       <p>Por otro lado, requiere un esfuerzo grande de gestión y un mandato político fuerte para alinear las políticas públicas y los incentivos privados hacia enfoques productivos sustentables.</p>
@@ -22,6 +23,7 @@ cat-1:
     image: img/projects/map-image.jpg
   - name: >
       Alternativas de canalización de recursos REDD+ a nivel subnacional
+    id: alternativas-de-canalizacion-de-recursos
     description: >
       <p>La primera experiencia de pago por resultados REDD+ en México se realizará en el marco del Fondo Cooperativo para el Carbono de los Bosques, vía un fideicomiso (Fondo de Carbono) que interactuará directamente con el Fondo de Cambio Climático (FCC) de la SEMARNAT. Este documento explora las opciones para canalizar los recursos del FCC a los estados participantes: Chiapas, Jalisco, Campeche, Quintana Roo y Yucatán.</p>
     link-title: txt
@@ -29,6 +31,7 @@ cat-1:
     image: img/projects/canalizacion-recursos.jpg
   - name: >
       Aplicación del Marco de Evaluación de Opciones para valorar la preparación del país para implementar un mecanismo de distribución de beneficios REDD+
+    id: aplicacion-del-marco-de-evaluacion
     description: >
       <p>El <a href="http://www.profor.info/">Programa sobre Bosques del Banco Mundial</a> diseño una metodología para ayudar a los países participantes de mecanismos REDD+ y otros financiamientos para el sector forestal, a valorar su grado de preparación institucional e identificación de rubros por fortalecer, para contar con una estructura idónea que permita implementar mecanismos de apoyo forestal y distribución de beneficios derivados de ello.</p>
       <p>Al lado de Profor y Conafor, usamos por primera vez la metodología diseñada para elaborar un diagnóstico de las condiciones estructurales de México frente a los retos de financiamiento forestal y distribución de beneficios. El diagnóstico abordó los aspectos legales, financieros, de capacidad institucional y de monitoreo.</p>
@@ -37,6 +40,7 @@ cat-1:
     image: img/projects/map-image.jpg
   - name: >
       Análisis de subsidios y financiamiento con enfoque REDD+: Diseño e interacción de subsidios agropecuarios
+    id: analisis-de-subsidios
     description: >
       <p>El financiamiento tanto público como privado es un elemento clave para impulsar actividades con enfoque REDD+. En este proyecto se identificó un conjunto de programas de subsidios públicos que pudieran financiar proyectos sustentables. Se elaboraron varios productos, destacan:</p>
       <ol>
@@ -48,6 +52,7 @@ cat-1:
     image: img/projects/campeche-yucatan-quintana-roo.jpg
   - name: >
       Diseñando programas de inversión para la restauración productiva y la reducción de emisiones por deforestación. Metodología y caso Calakmul Sur
+    id: diseñando-programas-de-inversion
     description: >
       <p>En el marco de la Iniciativa de Reducción de Emisiones para el <a href="http://www.forestcarbonpartnership.org/">Fondo Cooperativo del Carbono de los Bosques</a>, en México se han elaborado 11 programas de inversión en las Áreas de Acción Temprana REDD+ (Jalisco, Chiapas, Campeche, Quintana Roo, Yucatán).</p>
       <p>Nuestro trabajo es recuperar la experiencia metodológica de estos 11 programas y complementar las herramientas de trabajo para que las siguientes fases de planeación REDD+ a nivel regional cuenten con más elementos que faciliten el diagnóstico y planeación participativa. Además, elaboraremos un diagnóstico preliminar de dinámicas productivas y de deforestación en la región fronteriza entre los municipios de Othón P. Blanco (Quintana Roo) y Calakmul (Campeche).</p>
@@ -86,6 +91,7 @@ cat-2:
     image: img/projects/actividades-bajas-carbono.jpg
   - name: >
       Diseño del Fondo Chiapas para el Desarrollo Rural Sustentable
+    id: diseno-del-fondo-chiapas
     description: >
       <p>La creación de este fondo es parte de la preparación institucional para implementar REDD+ y otros esquemas de financiamiento al desarrollo rural sustentable en Chiapas. Buscamos diseñar una estructura de financiamiento que permita canalizar recursos privados y públicos a actividades productivas sostenibles y otras de conservación.</p>
     image: img/projects/chiapas.jpg
@@ -107,6 +113,7 @@ cat-4-title: Comunicación y vinculación
 cat-4:
   - name: >
       Equidad e inclusión en la distribución de beneficios REDD+ en México
+    id: equidad-e-inclusion
     description: >
       <p>La Unión Internacional de Conservación de la Naturaleza (UICN), con el apoyo financiero del Ministerio Federal de Medio Ambiente, Protección de la Naturaleza, Obras Públicas y Seguridad Nuclear (BMUB) de Alemania, lleva implementando desde 2013 acciones para apoyar el diseño de esquemas de distribución de beneficios REDD+ en pro de poblaciones en condición de pobreza y en el proceso nacional de preparación REDD+.</p>
       <p>En mayo de 2015 facilitamos un taller con expertos en el desarrollo de REDD+, temas de equidad e inclusión y actores involucrados en la Iniciativa de Reducción de Emisiones (IRE) para dialogar sobre el desarrollo y evaluación de los Programas de Inversión de la IRE, la selección de actividades REDD+ y los retos para incluir a no-propietarios forestales entre los beneficiarios REDD+.</p>
@@ -118,6 +125,7 @@ cat-4:
     image: img/projects/equidad-inclusion.jpg
   - name: >
       Facilitación de procesos y generación colectiva de conocimientos para el financiamiento del desarrollo rural sustentable
+    id: facilitacion-de-procesos
     description: >
       <p>Como un paso final del proyecto Beneficios de REDD+ que lleva a cabo la Unión Internacional de Conservación de la Naturaleza (UICN) para contribuir a los procesos nacionales de preparación de REDD+ se llevó a cabo un taller con los socios del proyecto para recuperar experiencias, puntos clave, buenas prácticas, logros y retos. En el taller guiamos a los participantes hacia una reflexión sobre la ejecución del proyecto para construir una visión colectiva retrospectiva de los conocimientos y aportes del proyecto coordinado por UICN en México.</p>
       <p>Uno de los aportes más importantes del proyecto  consistió en proponer opciones legales e institucionales para que la distribución de beneficios REDD+ incluya a las mujeres y grupos vulnerables, así como la inclusión de conceptos como equidad y género en las discusiones de REDD+.</p>

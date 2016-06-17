@@ -1,5 +1,16 @@
 <script type="text/javascript">
   $('.readmore').readmore({
+    moreLink: '<p><i class="fa fa-file-text-o" aria-hidden="true"> <a href="#"></i>Read information</a></p>',
+    lessLink: '<a href="#">Hide text</a>',
+    collapsedHeight: 0,
+    afterToggle: function(trigger, element, expanded) {
+      if(! expanded) { // The "Close" link was clicked
+        $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
+      }
+    }
+  });
+
+  $('.leermas').readmore({
     moreLink: '<p><i class="fa fa-file-text-o" aria-hidden="true"> <a href="#"></i>Ver información del proyecto</a></p>',
     lessLink: '<a href="#">Ocultar texto</a>',
     collapsedHeight: 0,
@@ -8,5 +19,11 @@
         $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
       }
     }
+  });
+
+  $('.cat-1').hide();
+
+  $('#projects-cat-1').click(function() {
+    $('.cat-1').fadeToggle();
   });
 </script>
