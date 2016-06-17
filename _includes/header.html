@@ -9,16 +9,9 @@
       </button>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
-      <!-- ul class="nav navbar-nav-white navbar-nav">
-        <li class="{% if page.url == '/index.html' %}active{% endif%}"><a href="{{site.baseurl}}/">INICIO</a></li>
-        <li class="{% if page.url == '/proyectos.html' %}active{% endif%}"><a href="{{site.baseurl}}/proyectos.html">PROYECTOS</a></li>
-        <li class="{% if page.url == '/equipo.html' %}active{% endif%}"><a href="{{site.baseurl}}/equipo.html">EQUIPO</a></li>
-        <li class="{% if page.url == '/publicaciones.html' %}active{% endif%}"><a href="{{site.baseurl}}/publicaciones.html">PUBLICACIONES</a></li>
-        <li class="{% if page.url == '/fis.html' %}active{% endif%}"><a href="{{site.baseurl}}/fis.html">FIS</a></li>
-      </ul -->
       <ul class="nav navbar-nav-white navbar-nav">
         {% for menu in site.t[page.lang] %}
-          <li><a href="/{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+          <li><a href="{{site.baseurl}}{{ menu[1].url }}">{{ menu[1].name }}</a></li>
         {% endfor %}
       </ul>
 
@@ -26,7 +19,7 @@
       {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
         {% for page in pages %}
           <li>
-            <a href="/{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+            <a href="{{site.baseurl}}{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
           </li>
         {% endfor %}
       </ul>
