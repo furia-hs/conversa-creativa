@@ -31,19 +31,24 @@ renewable-energy-image: img/speciality-2.svg
 renewable-energy-description: |
   Fomentamos el uso de energía renovable en pequeñas unidades económicas a través de la investigación y análisis de factibilidad técnica y financiera.
 
-outstanding-projects-title: Proyectos sobresalientes
-outstanding-projects:
+projects-title: Proyectos
+projects-cat:
   - name: >
-      Fondo climático de la península de Yucatán
-    image: img/projects/fondo-climatico.jpg
-    id: fondo-climatico-de-la-peninsula-de-yucatan
+      Investigación aplicada  al financiamiento del desarrollo rural sustentable
+    image: img/projects/investigacion-aplicada.jpg
+    id: investigacion-aplicada
 
   - name: >
-      Construyendo cadenas de valor: Uso de biomasa agrícola y forestal en aplicaciones energéticas
-    image: img/projects/construyendo-cadenas.jpg
-    id: construyendo-cadenas-de-valor
+      Diseño de plataformas de financiamiento sustentable
+    image: img/projects/financiamiento-sustentable.jpg
+    id: financiamiento-sustentable
 
   - name: >
-      Instrumento financiero para actividades bajas en carbono
-    image: img/projects/actividades-bajas-carbono.jpg
-    id: actividades-bajas-en-carbono
+      Investigación aplicada al fomento de energías renovables para pequeñas empresas tradicionales
+    image: img/projects/fomento-energias-renovables.jpg
+    id: fomento-energias-renovables
+
+  - name: >
+      Comunicación y vinculación
+    image: img/projects/comunicacion-viculacion.jpg
+    id: comunicacion-viculacion

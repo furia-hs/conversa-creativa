@@ -31,19 +31,24 @@ renewable-energy-image: img/speciality-2.svg
 renewable-energy-description: |
   <p>We encourage the use of renewable energy in small economic units through research and analysis of technical and financial feasibility.</p>
 
-outstanding-projects-title: Outstanding Projects
-outstanding-projects:
+projects-title: Projects
+projects-cat:
   - name: >
-      Yucatan Peninsula Climate Action Fund
-    image: img/projects/fondo-climatico.jpg
-    id: yucatan-peninsula-climate
+      Applied Research on Fomenting Renewable Energies
+    image: img/projects/investigacion-aplicada.jpg
+    id: applied-research
 
   - name: >
-      Constructing Value Chains: Using Agricultural and Forest Biomass for Energy Applications
-    image: img/projects/construyendo-cadenas.jpg
-    id: constructing-value-chains
+      Design Sustainable Finance Platforms
+    image: img/projects/financiamiento-sustentable.jpg
+    id: design-sustainable-finance-platforms
 
   - name: >
-      Financial Instrument for Low Carbon Activities
-    image: img/projects/actividades-bajas-carbono.jpg
-    id: low-carbon-activities
+      Applied Research on Financing Sustainable Rural Development
+    image: img/projects/fomento-energias-renovables.jpg
+    id: financing-sustainable-rural-development
+
+  - name: >
+      Communication
+    image: img/projects/comunicacion-viculacion.jpg
+    id: communication

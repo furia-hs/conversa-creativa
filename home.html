@@ -85,16 +85,18 @@ lang: en
   </div>
 </section>
 
-<!-- Proyectos sobresalientes -->
+<!-- Proyectos -->
 <section class="container index-container">
   <div class="row index-row__padding">
     <div class="col-sm-offset-1 col-sm-10">
-      <h3 class="text-center">{{ site.data.home.outstanding-projects-title }}</h3>
+      <h3 class="text-center">{{ site.data.home.projects-title }}</h3>
       <ul class="row">
-        {% for outstanding-projects in site.data.home.outstanding-projects %}
-          <li class="col-sm-4">
-            <img class="img-responsive" src="{{ outstanding-projects.image }}" />
-            <p><a href="{{ site.baseurl }}/proyectos.html#{{ outstanding-projects.id }}">{{ outstanding-projects.name }}</a></p>
+        {% for projects-cat in site.data.home.projects-cat %}
+          <li class="col-sm-6">
+            <div class="row">
+              <img class="col-sm-4 img-responsive" src="{{ projects-cat.image }}" />
+              <p class="col-sm-8"><a href="{{ site.github.url }}/proycts.html#{{ projects-cat.id }}">{{ projects-cat.name }}</a></p>
+            </div>
           </li>
         {% endfor %}
       </ul>

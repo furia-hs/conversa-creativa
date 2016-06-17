@@ -27,9 +27,9 @@ lang: es
 
 <section class="section-content">
   <ol class="col-sm-offset-1 col-sm-10">
-    <li>
+    <li class="section-content-anchor" id="{{ site.data.proyectos.cat-1-id }}">
       <h3 id="projects-cat-1" >{{ site.data.proyectos.cat-1-title }}</h3>
-      <ul class="cat-1">
+      <ul class="row cat-1">
         {% for cat-1 in site.data.proyectos.cat-1 %}
           <li class="section-content-anchor" id="{{ cat-1.id }}">
             <h4>{{ cat-1.name }}</h4>
@@ -39,16 +39,16 @@ lang: es
               </div>
               <div class="col-sm-9">
                 {{ cat-1.description }}
-                <p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p>
+                <!-- p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p -->
               </div>
             </div>
           </li>
         {% endfor %}
       </ul>
     </li>
-    <li>
+    <li class="section-content-anchor" id="{{ site.data.proyectos.cat-2-id }}">
       <h3>{{ site.data.proyectos.cat-2-title }}</h3>
-      <ul>
+      <ul class="row" data-behavior="cat-2">
         {% for cat-2 in site.data.proyectos.cat-2 %}
           <li class="section-content-anchor" id="{{ cat-2.id }}">
             <h4>{{ cat-2.name }}</h4>
@@ -58,16 +58,16 @@ lang: es
               </div>
               <div class="col-sm-9">
                 {{ cat-2.description }}
-                <p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p>
+                <!-- p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p -->
               </div>
             </div>
           </li>
         {% endfor %}
       </ul>
     </li>
-    <li>
+    <li class="section-content-anchor" id="{{ site.data.proyectos.cat-3-id }}">
       <h3>{{ site.data.proyectos.cat-3-title }}</h3>
-      <ul class="row">
+      <ul class="row" data-behavior="cat-3">
         {% for cat-3 in site.data.proyectos.cat-3 %}
           <li class="section-content-anchor" id="{{ cat-3.id }}">
             <h4>{{ cat-3.name }}</h4>
@@ -77,16 +77,16 @@ lang: es
               </div>
               <div class="col-sm-9">
                 {{ cat-3.description }}
-                <p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p>
+                <!-- p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p -->
               </div>
             </div>
           </li>
         {% endfor %}
       </ul>
     </li>
-    <li>
+    <li class="section-content-anchor" id="{{ site.data.proyectos.cat-4-id }}">
       <h3>{{ site.data.proyectos.cat-4-title }}</h3>
-      <ul>
+      <ul class="row" data-behavior="cat-4">
         {% for cat-4 in site.data.proyectos.cat-4 %}
           <li class="section-content-anchor" id="{{ cat-4.id }}">
             <h4>{{ cat-4.name }}</h4>
@@ -96,7 +96,7 @@ lang: es
               </div>
               <div class="col-sm-9">
                 {{ cat-4.description }}
-                <p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p>
+                <!-- p>{% if cat-4.link %}<a href="{{ cat-4.link}}" target="_blank">{{ cat-4.link-text }}</a>{% endif %}{% if cat-4.link-2 %} | <a href="{{ cat-2.link}}">{{ cat-4.link-text-2 }}</a></p>{% endif %}{% if cat-4.txt-mail %} {{ cat-4.txt-mail }} {% endif %}</p -->
               </div>
             </div>
           </li>
