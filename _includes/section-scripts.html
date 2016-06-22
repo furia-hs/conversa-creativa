@@ -1,23 +1,46 @@
 <script type="text/javascript">
-  $('.readmore').readmore({
-    moreLink: '<p><i class="fa fa-file-text-o" aria-hidden="true"> <a href="#"></i>Read information</a></p>',
-    lessLink: '<a href="#">Hide text</a>',
-    collapsedHeight: 0,
-    afterToggle: function(trigger, element, expanded) {
-      if(! expanded) { // The "Close" link was clicked
-        $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
+  $(document).ready(function() {
+    /*
+    $('.readmore').readmore({
+      moreLink: '<p><i class="fa fa-file-text-o" aria-hidden="true"> <a href="#"></i>Read information</a></p>',
+      lessLink: '<a href="#">Hide text</a>',
+      collapsedHeight: 0,
+      afterToggle: function(trigger, element, expanded) {
+        if(! expanded) { // The "Close" link was clicked
+          $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
+        }
       }
-    }
-  });
+    });
 
-  $('.leermas').readmore({
-    moreLink: '<p><i class="fa fa-file-text-o" aria-hidden="true"> <a href="#"></i>Ver información del proyecto</a></p>',
-    lessLink: '<a href="#">Ocultar texto</a>',
-    collapsedHeight: 0,
-    afterToggle: function(trigger, element, expanded) {
-      if(! expanded) { // The "Close" link was clicked
-        $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
+    $('.leermas').readmore({
+      moreLink: '<p><i class="fa fa-file-text-o" aria-hidden="true"> <a href="#"></i>Ver información del proyecto</a></p>',
+      lessLink: '<a href="#">Ocultar texto</a>',
+      collapsedHeight: 0,
+      afterToggle: function(trigger, element, expanded) {
+        if(! expanded) { // The "Close" link was clicked
+          $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
+        }
       }
-    }
+    });
+*/
+    if (window.location.hash == '#investigacion-aplicada') {
+      $( "#cat-1" ).addClass("in");
+    } else if (window.location.hash == '#financiamiento-sustentable') {
+      $( "#cat-2" ).addClass("in");
+    } else if (window.location.hash == '#fomento-energias-renovables') {
+      $( "#cat-3" ).addClass("in");
+    } else if (window.location.hash == '#comunicacion-viculacion') {
+      $( "#cat-4" ).addClass("in");
+    };
+
+    if (window.location.hash == '#applied-research') {
+      $( "#cat-1" ).addClass("in");
+    } else if (window.location.hash == '#design-sustainable-finance-platforms') {
+      $( "#cat-2" ).addClass("in");
+    } else if (window.location.hash == '#financing-sustainable-rural-development') {
+      $( "#cat-3" ).addClass("in");
+    } else if (window.location.hash == '#communication') {
+      $( "#cat-4" ).addClass("in");
+    };
   });
 </script>
