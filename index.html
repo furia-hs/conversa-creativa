@@ -38,14 +38,14 @@ lang: es
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 index-element__mobile-margin">
           <h4>{{ site.data.index.proposal-title-1 }}</h4>
           <img src="{{ site.data.index.proposal-image-1 }}" />
           <ul class="index-container-list__style">
             {{ site.data.index.proposal-text-1 }}
           </ul>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 index-element__mobile-margin">
           <h4>{{ site.data.index.proposal-title-2 }}</h4>
           <img src="{{ site.data.index.proposal-image-2 }}" />
           <ul class="index-container-list__style">
@@ -70,7 +70,7 @@ lang: es
     <div class="col-sm-offset-1 col-sm-10">
       <h3 class="text-center">{{ site.data.index.specialities-title }}</h3>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 index-element__mobile-margin">
           <img src="{{ site.data.index.susteinable-investment-image }}" />
           <h4><a href="{{ site.github.url }}/especialidades.html">{{ site.data.index.susteinable-investment-title }}</a></h4>
           <p>{{ site.data.index.sustainable-investment-description }}</p>
@@ -92,7 +92,7 @@ lang: es
       <h3 class="text-center">{{ site.data.index.projects-title }}</h3>
       <ul class="row">
         {% for projects-cat in site.data.index.projects-cat %}
-          <li class="col-sm-6 index-container-li__margin">
+          <li class="col-sm-6 {% if forloop.index <= 3 %} index-element__mobile-margin {% endif %}">
             <div class="row">
               <img class="col-sm-4 img-responsive" src="{{ projects-cat.image }}" />
               <p class="col-sm-8"><a href="{{ site.github.url }}/proyectos.html#{{ projects-cat.id }}">{{ projects-cat.name }}</a></p>

@@ -22,15 +22,15 @@ lang: es
 <section class="row section-content">
   <ul>
     {% for equipo in site.data.equipo.members %}
-      <li class="row">
+      <li>
         <div class="col-sm-offset-1 col-sm-10">
           <h2>{{ equipo.name }}</h2>
           <h3>{{ equipo.position }} | <a href="mailto:{{ equipo.email }}">{{ equipo.email }}</a></h3>
         </div>
         <div class="col-sm-offset-1 col-sm-3">
-          <img class="section-image__margin" src="{{ equipo.image }}">
+          <img src="{{ equipo.image }}">
         </div>
-        <div class="col-sm-7">
+        <div class="col-sm-7 section-content-element__margin">
           {{ equipo.description}}
         </div>
       </li>
