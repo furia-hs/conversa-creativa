@@ -14,13 +14,13 @@ lang: es
 </div>
 
 <section class="row section-page-description">
-  <div class="col-sm-offset-1 col-sm-6">
+  <div class="col-sm-offset-1 col-sm-10">
     {{ site.data.proyectos.description }}
   </div>
-  <div class="col-sm-4">
-    <img class="svg project-page-map" src="img/projects/mapa.svg" />
+  <div class="col-sm-offset-3 col-sm-6">
+    <img class="svg project-page-map" src="{{ site.data.proyectos.map }}" />
     <p class="text-center">
-      <small>Presencia regional</small>
+      <small>{{ site.data.proyectos.map-text }}</small>
     </p>
   </div>
 </section>
