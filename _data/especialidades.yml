@@ -14,7 +14,7 @@ susteinable-investment-id: inversion-sustentable
 sre:
   - name: >
       Fondo Climático de la Península de Yucatán
-    link: http://www.ccpy.gob.mx/agenda-regional/fondo-cambio-climatico.php
+    id: fondo-climatico-de-la-peninsula-de-yucatan
 
   - name: >
       Instrumento financiero para actividades bajas en carbono, península de Yucatán
