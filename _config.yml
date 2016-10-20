@@ -9,7 +9,7 @@ index:
   es:
   en: home.html
 email: david@hastasiempre.mx
-baseurl: "/conversa-creativa" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.conversamexico.com/" # the base hostname & protocol for your site
 
 t:
