@@ -8,7 +8,7 @@ description:
 index:
   es:
   en: home.html
-email: david@hastasiempre.mx
+email: emmanuel@conversamexico.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.conversamexico.com/" # the base hostname & protocol for your site
 
@@ -26,6 +26,9 @@ t:
     equipo:
       name: "EQUIPO"
       url: "/equipo.html"
+    biblioteca:
+      name: "BIBLIOTECA"
+      url: "/biblioteca.html"
 
   en:
     home:
@@ -40,6 +43,9 @@ t:
     equipo:
       name: "TEAM"
       url: "/team.html"
+    biblioteca:
+      name: "LIBRARY"
+      url: "/library.html"
 
 # Build settings
 markdown: kramdown
