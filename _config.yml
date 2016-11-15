@@ -23,13 +23,9 @@ t:
     proyectos:
       name: "PROYECTOS"
       url: "/proyectos.html"
-    conocimiento:
-      name: "CONOCIMIENTO"
-      url: "/conocimiento.html"
     equipo:
       name: "EQUIPO"
       url: "/equipo.html"
-
 
   en:
     home:
@@ -41,9 +37,6 @@ t:
     proyectos:
       name: "PROJECTS"
       url: "/projects.html"
-    conocimiento:
-      name: "KNOWLEDGE"
-      url: "/knowledge.html"
     equipo:
       name: "TEAM"
       url: "/team.html"
