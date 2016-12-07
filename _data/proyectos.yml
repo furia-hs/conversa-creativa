@@ -89,14 +89,16 @@ cat-2:
     link-title-2: txt
     link-2: http://www.seduma.yucatan.gob.mx/expoforoambiental2015/presentaciones-conferencias/8_FondoDeCambioClimaticoPY_SebastienProust_TNC.pdf
     image: img/projects/08.png
+
   - name: >
       Instrumento financiero para actividades bajas en carbono, península de Yucatán
     id: actividades-bajas-en-carbono
     description: >
       <p>Se diseñó un instrumento financiero múltiple, compuesto por tres elementos: crédito, fondo revolvente para asistencia técnica y fondo de garantía. El objetivo es facilitar a los productores el acceso al crédito comercial y garantías, pero a la vez desarrollar capacidades empresariales, técnicas y legales con las que no cuentan en estos momentos.</p>
       <p>Por lo tanto, el instrumento servirá para apalancar fondos de inversión climática para facilitar el acceso al crédito formal a los productores con actividades bajas en carbono: apicultura, agricultura protegida, ganadería sustentables (SSPi) y silvicultura.</p>
-      <p>Para mayor información contacta a: <a href="mailto:adriana@conversamexico.com"</a>
+      <p>Para mayor información contacta a: <a href="mailto:adriana@conversamexico.com">Adriana</a>
     image: img/projects/09.png
+
   - name: >
       Diseño del Fondo Chiapas para el Desarrollo Rural Sustentable
     id: diseno-del-fondo-chiapas
