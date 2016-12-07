@@ -29,7 +29,7 @@ lang: es
   <div class="col-sm-offset-1 col-sm-10">
     <h3>{{ site.data.conocimiento.creations-title }}</h3>
     <ul>
-      {% for suggestions in site.data.conocimiento.creations %}
+      {% for creations in site.data.conocimiento.creations %}
         <li class="row">
           <div class="col-sm-12">
             <p><i class="fa fa-book" aria-hidden="true"></i>{{ creations.name }}- <a href="{{ creations.link }}" target="_blank">{{ creations.text-title }}</a></p>
