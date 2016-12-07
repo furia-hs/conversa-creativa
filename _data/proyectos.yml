@@ -30,7 +30,7 @@ cat-1:
       Alternativas de canalización de recursos REDD+ a nivel subnacional
     id: alternativas-de-canalizacion-de-recursos
     description: >
-      <p>La primera experiencia de pago por resultados REDD+ en México se realizará en el marco del Fondo Cooperativo para el Carbono de los Bosques, vía un fideicomiso (Fondo de Carbono) que interactuará directamente con el Fondo de Cambio Climático (FCC) de la SEMARNAT. Este documento explora las opciones para canalizar los recursos del FCC a los estados participantes: Chiapas, Jalisco, Campeche, Quintana Roo y Yucatán.</p>
+      <p>La primera experiencia de pago por resultados REDD+ en México se realizará en el marco del Fondo Cooperativo para el Carbono de los Bosques, vía un fideicomiso (Fondo de Carbono) que interactuará directamente con el Fondo de Cambio Climático (FCC) de la SEMARNAT. Este <a href="http://biblioteca.alianza-mredd.org/resena/2692f596884e1995502d7e7be793eab0a9401151" target="_blank">documento</a> explora las opciones para canalizar los recursos del FCC a los estados participantes: Chiapas, Jalisco, Campeche, Quintana Roo y Yucatán.</p>
     link-title: txt
     link: http://biblioteca.alianza-mredd.org/resena/2692f596884e1995502d7e7be793eab0a9401151
     image: img/projects/03.png
@@ -44,14 +44,15 @@ cat-1:
     link-title: txt
     link: http://www.profor.info/knowledge/developing-road-map-benefit-sharing-using-options-assessment-framework
     image: img/projects/04.png
+
   - name: >
       Análisis de subsidios y financiamiento con enfoque REDD+: Diseño e interacción de subsidios agropecuarios
     id: analisis-de-subsidios
     description: >
       <p>El financiamiento tanto público como privado es un elemento clave para impulsar actividades con enfoque REDD+. En este proyecto se identificó un conjunto de programas de subsidios públicos que pudieran financiar proyectos sustentables. Se elaboraron varios productos, destacan:</p>
       <ol>
-        <li>“Análisis de tendencias de subsidios agropecuarios y deforestación en la península de Yucatán en el periodo 2008-2013”, en el que se hizo un análisis del comportamiento y tendencias presupuestales de tres programas de subsidios agropecuarios (PROCAMPO, Alianza para el campo y PROGAN) y la deforestación en la Península de Yucatán y</li>
-        <li>Guía para la búsqueda de subsidios para proyectos con enfoque REDD+, la cual puede descargarse en la el siguiente link.</li>
+        <li>“<a href="http://www.alianza-mredd.org/biblioteca/publicaciones-de-la-alianza-2/guia-para-la-busqueda-de-subsidios-para-proyectos-con-enfoque-redd-117#.V1WHSJHhChc" target="_blank">Análisis de tendencias de subsidios agropecuarios y deforestación en la península de Yucatán en el periodo 2008-2013”</a>, en el que se hizo un análisis del comportamiento y tendencias presupuestales de tres programas de subsidios agropecuarios (PROCAMPO, Alianza para el campo y PROGAN) y la deforestación en la Península de Yucatán y</li>
+        <li>Guía para la búsqueda de subsidios para proyectos con enfoque REDD+, la cual puede descargarse en el siguiente <a href="http://www.alianza-mredd.org/biblioteca/publicaciones-de-la-alianza-2/guia-para-la-busqueda-de-subsidios-para-proyectos-con-enfoque-redd-117#.V1WHSJHhChc" target="_blank">link</a>.</li>
       </ol>
     link-title: txt
     link: http://www.alianza-mredd.org/biblioteca/publicaciones-de-la-alianza-2/guia-para-la-busqueda-de-subsidios-para-proyectos-con-enfoque-redd-117#.V1WHSJHhChc
@@ -60,7 +61,7 @@ cat-1:
       Diseñando programas de inversión para la restauración productiva y la reducción de emisiones por deforestación. Metodología y caso Calakmul Sur
     id: diseñando-programas-de-inversion
     description: >
-      <p>En el marco de la Iniciativa de Reducción de Emisiones para el <a href="http://www.forestcarbonpartnership.org/">Fondo Cooperativo del Carbono de los Bosques</a>, en México se han elaborado 11 programas de inversión en las Áreas de Acción Temprana REDD+ (Jalisco, Chiapas, Campeche, Quintana Roo, Yucatán).</p>
+      <p>En el marco de la Iniciativa de Reducción de Emisiones para el <a href="http://www.forestcarbonpartnership.org/" target="_blank">Fondo Cooperativo del Carbono de los Bosques</a>, en México se han elaborado 11 programas de inversión en las Áreas de Acción Temprana REDD+ (Jalisco, Chiapas, Campeche, Quintana Roo, Yucatán).</p>
       <p>Nuestro trabajo es recuperar la experiencia metodológica de estos 11 programas y complementar las herramientas de trabajo para que las siguientes fases de planeación REDD+ a nivel regional cuenten con más elementos que faciliten el diagnóstico y planeación participativa. Además, elaboraremos un diagnóstico preliminar de dinámicas productivas y de deforestación en la región fronteriza entre los municipios de Othón P. Blanco (Quintana Roo) y Calakmul (Campeche).</p>
     image: img/projects/06.png
   - name: >
@@ -68,7 +69,7 @@ cat-1:
     id: guia-de-inversion-forestal-en-mexico
     description: >
       <p>El sector forestal en México capta menos del 1% del financiamiento privado en forma de créditos colocados, sin embargo, el país tiene un enorme potencial de producción forestal sustentable y es lugar de prácticas de manejo comunitario de bosques que han innovado por su fortaleza organizacional.</p>
-      <p>Esta guía brinda un panorama general de la producción forestal en bosques naturales y propone una serie de principios para aumentar el financiamiento forestal en el país.</p>
+      <p>Esta <a href="https://www.dropbox.com/s/rzvv03c9lm3mmzp/Investment%20Guide%20for%20Mexico%202015.pdf?dl=0" target="_blank">guía</a> brinda un panorama general de la producción forestal en bosques naturales y propone una serie de principios para aumentar el financiamiento forestal en el país.</p>
     link-title: txt
     link: https://www.dropbox.com/s/rzvv03c9lm3mmzp/Investment%20Guide%20for%20Mexico%202015.pdf?dl=0
     image: img/projects/07.png
@@ -81,8 +82,8 @@ cat-2:
     id: fondo-climatico-de-la-peninsula-de-yucatan
     description: >
       <p>La Península de Yucatán es una región mexicana con gran actividad en relación a la adaptación y mitigación del cambio climático. Los gobiernos estatales y una variedad de actores nacionales e internacionales tienen fuerte presencia en la región.</p>
-      <p>En asociación con <a href="http://www.ithacaenvironmental.com/">Ithaca Environmental</a> hemos diseñado el Fondo Climático de la Península de Yucatán, una entidad encargada de gestionar recursos nacionales e internacionales dedicados a avanzar la agenda de desarrollo rural sustentable, energía limpia, agua y otros temas prioritarios en la región.</p>
-      <p>El Fondo Climático de la Península de Yucatán tiene un diseño institucional innovador que conforma una estructura sólida para operar bajo principios de pluralidad en la toma de decisiones, transparencia y manejo profesional de las inversiones captadas.</p>
+      <p>En asociación con <a href="http://www.ithacaenvironmental.com/">Ithaca Environmental</a> hemos diseñado el <a href="http://www.ccpy.gob.mx/agenda-regional/fondo-cambio-climatico.php" target="blank">Fondo Climático de la Península de Yucatán</a>, una entidad encargada de gestionar recursos nacionales e internacionales dedicados a avanzar la agenda de desarrollo rural sustentable, energía limpia, agua y otros temas prioritarios en la región.</p>
+      <p>El Fondo Climático de la Península de Yucatán tiene un <a href="http://www.seduma.yucatan.gob.mx/expoforoambiental2015/presentaciones-conferencias/8_FondoDeCambioClimaticoPY_SebastienProust_TNC.pdf" target="_blank">diseño institucional innovador</a> que conforma una estructura sólida para operar bajo principios de pluralidad en la toma de decisiones, transparencia y manejo profesional de las inversiones captadas.</p>
     link-title: txt
     link: http://www.ccpy.gob.mx/agenda-regional/fondo-cambio-climatico.php
     link-title-2: txt
