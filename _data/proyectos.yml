@@ -14,16 +14,18 @@ cat-1:
     description: >
       <p>A solicitud de KfW, Conafor y FIRA, trabajaremos con empresas forestales comunitarias del estado de Durango en el diseño de un plan de negocios asociado a un programa de asistencia técnica que les permita escalar su producción, mejorar su desempeño ambiental y consolidarse en mercados nacionales e internacionales de madera.</p>
     image: img/projects/01.png
+
   - name: >
       Diseño de un mecanismo de financiamiento para REDD+ en México. Diagnóstico
     id: diseno-de-un-mecanismo-de-financiamiento
     description: >
       <p>El enfoque de REDD+ en México es el impulso al desarrollo rural sustentable y el manejo integrado de paisaje. Nuestro país no implementará REDD+ a nivel de proyecto o predio, sino a escala regional y paisajística. Este enfoque es una gran oportunidad para mejorar la planeación, coordinación e implementación de intervenciones públicas y privadas a escala regional.</p>
       <p>Por otro lado, requiere un esfuerzo grande de gestión y un mandato político fuerte para alinear las políticas públicas y los incentivos privados hacia enfoques productivos sustentables.</p>
-      <p>El documento explora las vías de financiamiento generales para REDD+. Se estudia con más detalle, una forma de incorporar REDD+ en los criterios de política agropecuaria, específicamente a través del hoy extinto programa de apoyo a la inversión e infraestructura –PAIEI-.</p>
+      <p>El <a href="http://biblioteca.alianza-mredd.org/" target="_blank">documento</a> explora las vías de financiamiento generales para REDD+. Se estudia con más detalle, una forma de incorporar REDD+ en los criterios de política agropecuaria, específicamente a través del hoy extinto programa de apoyo a la inversión e infraestructura –PAIEI-.</p>
     link-title: txt
     link: http://biblioteca.alianza-mredd.org/resena/c974c44d246a2865831633268a84550e2c6f079b
     image: img/projects/02.png
+
   - name: >
       Alternativas de canalización de recursos REDD+ a nivel subnacional
     id: alternativas-de-canalizacion-de-recursos
@@ -32,11 +34,12 @@ cat-1:
     link-title: txt
     link: http://biblioteca.alianza-mredd.org/resena/2692f596884e1995502d7e7be793eab0a9401151
     image: img/projects/03.png
+
   - name: >
       Aplicación del Marco de Evaluación de Opciones para valorar la preparación del país para implementar un mecanismo de distribución de beneficios REDD+
     id: aplicacion-del-marco-de-evaluacion
     description: >
-      <p>El <a href="http://www.profor.info/">Programa sobre Bosques del Banco Mundial</a> diseño una metodología para ayudar a los países participantes de mecanismos REDD+ y otros financiamientos para el sector forestal, a valorar su grado de preparación institucional e identificación de rubros por fortalecer, para contar con una estructura idónea que permita implementar mecanismos de apoyo forestal y distribución de beneficios derivados de ello.</p>
+      <p>El <a href="http://www.profor.info/" target="_blank">Programa sobre Bosques del Banco Mundial</a> diseño una metodología para ayudar a los países participantes de mecanismos REDD+ y otros financiamientos para el sector forestal, a valorar su grado de preparación institucional e identificación de rubros por fortalecer, para contar con una estructura idónea que permita implementar mecanismos de apoyo forestal y distribución de beneficios derivados de ello.</p>
       <p>Al lado de Profor y Conafor, usamos por primera vez la metodología diseñada para elaborar un diagnóstico de las condiciones estructurales de México frente a los retos de financiamiento forestal y distribución de beneficios. El diagnóstico abordó los aspectos legales, financieros, de capacidad institucional y de monitoreo.</p>
     link-title: txt
     link: http://www.profor.info/knowledge/developing-road-map-benefit-sharing-using-options-assessment-framework
