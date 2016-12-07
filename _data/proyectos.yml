@@ -51,7 +51,7 @@ cat-1:
     description: >
       <p>El financiamiento tanto público como privado es un elemento clave para impulsar actividades con enfoque REDD+. En este proyecto se identificó un conjunto de programas de subsidios públicos que pudieran financiar proyectos sustentables. Se elaboraron varios productos, destacan:</p>
       <ol>
-        <li>“<a href="http://www.alianza-mredd.org/biblioteca/publicaciones-de-la-alianza-2/guia-para-la-busqueda-de-subsidios-para-proyectos-con-enfoque-redd-117#.V1WHSJHhChc" target="_blank">Análisis de tendencias de subsidios agropecuarios y deforestación en la península de Yucatán en el periodo 2008-2013”</a>, en el que se hizo un análisis del comportamiento y tendencias presupuestales de tres programas de subsidios agropecuarios (PROCAMPO, Alianza para el campo y PROGAN) y la deforestación en la Península de Yucatán y</li>
+        <li>“Análisis de tendencias de subsidios agropecuarios y deforestación en la península de Yucatán en el periodo 2008-2013”, en el que se hizo un análisis del comportamiento y tendencias presupuestales de tres programas de subsidios agropecuarios (PROCAMPO, Alianza para el campo y PROGAN) y la deforestación en la Península de Yucatán y</li>
         <li>Guía para la búsqueda de subsidios para proyectos con enfoque REDD+, la cual puede descargarse en el siguiente <a href="http://www.alianza-mredd.org/biblioteca/publicaciones-de-la-alianza-2/guia-para-la-busqueda-de-subsidios-para-proyectos-con-enfoque-redd-117#.V1WHSJHhChc" target="_blank">link</a>.</li>
       </ol>
     link-title: txt
@@ -69,9 +69,9 @@ cat-1:
     id: guia-de-inversion-forestal-en-mexico
     description: >
       <p>El sector forestal en México capta menos del 1% del financiamiento privado en forma de créditos colocados, sin embargo, el país tiene un enorme potencial de producción forestal sustentable y es lugar de prácticas de manejo comunitario de bosques que han innovado por su fortaleza organizacional.</p>
-      <p>Esta <a href="https://www.dropbox.com/s/rzvv03c9lm3mmzp/Investment%20Guide%20for%20Mexico%202015.pdf?dl=0" target="_blank">guía</a> brinda un panorama general de la producción forestal en bosques naturales y propone una serie de principios para aumentar el financiamiento forestal en el país.</p>
+      <p>Esta <a href="pdf\Investment_Guide_Mx_2015.pdf" target="_blank">guía</a> brinda un panorama general de la producción forestal en bosques naturales y propone una serie de principios para aumentar el financiamiento forestal en el país.</p>
     link-title: txt
-    link: https://www.dropbox.com/s/rzvv03c9lm3mmzp/Investment%20Guide%20for%20Mexico%202015.pdf?dl=0
+    link: pdf\Investment_Guide_Mx_2015.pdf
     image: img/projects/07.png
 
 cat-2-title: Diseño de plataformas de financiamiento sustentable
