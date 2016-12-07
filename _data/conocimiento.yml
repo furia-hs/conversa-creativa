@@ -3,14 +3,17 @@ description: >
   <p>En Conversa estamos trabajando para desarrollar una línea de publicaciones cortas y con lenguaje accesible, que promuevan el conocimiento sobre procesos productivos sostenibles y energía renovable.</p>
   <p>Abajo puedes encontrar el mapa de información sobre la biomasa en el estado de Oaxaca.</p>
 
+creations-title: Biblioteca CONVERSA
+
+creations:
+  - name: >
+      Mapa de conocimiento en bioenergia y combustibles sólidos
+    text-title: Conversa-Brochure-2016.pdf
+    link: pdf/Conversa-Brochure-2016.pdf
+
 suggestions-title: Recomendaciones en financiamiento climático
 
 suggestions:
-
-  - name: >
-      Mapa de conocimiento en bioenergia y combustibles sólidos
-    link: pdf/Conversa-Brochure-2016.pdf
-
   - name: >
       Plataforma sobre el financiamiento climático para Latinoamérica y el Caribe
     link: http://finanzascarbono.org/

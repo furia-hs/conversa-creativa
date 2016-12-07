@@ -27,6 +27,21 @@ lang: es
 
 <section class="row section-content">
   <div class="col-sm-offset-1 col-sm-10">
+    <h3>{{ site.data.conocimiento.creations-title }}</h3>
+    <ul>
+      {% for suggestions in site.data.conocimiento.creations %}
+        <li class="row">
+          <div class="col-sm-12">
+            <p><i class="fa fa-book" aria-hidden="true"></i>{{ suggestions.name }}- <a href="{{ creations.link }}" target="_blank">{{ creations.text-title }}</a></p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="row section-content">
+  <div class="col-sm-offset-1 col-sm-10">
     <h3>{{ site.data.conocimiento.suggestions-title }}</h3>
     <ul>
       {% for suggestions in site.data.conocimiento.suggestions %}
