@@ -6,6 +6,11 @@ description: >
 suggestions-title: Recomendaciones en financiamiento climático
 
 suggestions:
+
+  - name: >
+      Mapa de conocimiento en bioenergia y combustibles sólidos
+    link: pdf/Conversa-Brochure-2016.pdf
+
   - name: >
       Plataforma sobre el financiamiento climático para Latinoamérica y el Caribe
     link: http://finanzascarbono.org/
