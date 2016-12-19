@@ -538,3 +538,32 @@ h3.section-content-element__cursor[aria-expanded="true"] {
 #back-to-top.show {
     opacity: 1;
 }
+
+.conversa-nav-tabs {
+  border-bottom: none;
+  margin-bottom: 30px;
+
+  li {
+    width: 49%;
+    text-align: center;
+  }
+  li:nth-child(1) {
+    border-right: 1px solid $light-grey
+  }
+  li > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  li > a:hover {
+    background-color: white;
+    border-color: white;
+  }
+  li.active > a, li.active > a:hover, li.active > a:focus {
+    border: none;
+  }
+}
+
+.esfera {
+  margin: 0 5px 20px 5px;
+}
