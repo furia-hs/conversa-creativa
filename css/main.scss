@@ -542,25 +542,41 @@ h3.section-content-element__cursor[aria-expanded="true"] {
 .conversa-nav-tabs {
   border-bottom: none;
   margin-bottom: 30px;
+  margin-top: 30px;
+
+  u {
+    text-decoration: none;
+  }
 
   li {
     width: 49%;
     text-align: center;
   }
+
   li:nth-child(1) {
     border-right: 1px solid $light-grey
   }
+
   li > a {
-    text-decoration: none;
+    color: $text-color;
     font-size: 20px;
     font-weight: 300;
+    text-decoration: none;
   }
+
   li > a:hover {
     background-color: white;
     border-color: white;
+    color: $brand-color;
   }
+
   li.active > a, li.active > a:hover, li.active > a:focus {
     border: none;
+    text-decoration: none;
+
+    u {
+      border-bottom: 1px solid $text-color
+    }
   }
 }
 
