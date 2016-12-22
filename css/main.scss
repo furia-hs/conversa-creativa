@@ -388,8 +388,8 @@ p {
 .section-page-description {
   border-bottom: 1px solid #cccccc;
   font-weight: 300;
-  margin-bottom: 80px;
-  padding-bottom: 65px;
+  margin-bottom: 50px;
+  padding-bottom: 60px;
   text-align: justify;
 }
 
@@ -417,9 +417,9 @@ p {
   list-style-type: decimal;
 }
 
-.section-content li {
+/*.section-content li {
   margin-bottom: 40px;
-}
+}*/
 
 .section-content ol > li {
   font-weight: 300;
@@ -499,6 +499,12 @@ p {
 
 .section-content-element__cursor {
   cursor: pointer;
+}
+
+.section-content {
+  object {
+    margin-bottom: 20px;
+  }
 }
 /*
 h3.section-content-element__cursor[aria-expanded="true"] {
@@ -580,6 +586,6 @@ h3.section-content-element__cursor[aria-expanded="true"] {
   }
 }
 
-.esfera {
-  margin: 0 5px 20px 5px;
-}
+.extra-margin {
+  margin-bottom: 30px!important;
+ }

@@ -2,7 +2,7 @@ title: Conocimiento
 description: >
   <p>En esta sección compartimos publicaciones propias así como recomendaciones de lectura  en torno a nuestras dos especialidades: inversión sustentable y energías renovables. Si tienes sugerencias por favor escríbenos a <a href="mailto:comunicacion@conversamexico.com">comunicacion@conversamexico.com</a>.</p>
 
-creations-title: Biblioteca CONVERSA
+creations-title: Producción Conversa
 
 creations:
   - name: >
@@ -16,45 +16,24 @@ creations:
 
   - name: >
       Residuos de selvas y bosques mexicanos para usos energéticos
-    image: img/knowledge/portada.png
+    image: img/knowledge/residuos-selvas-bosques.jpg
     text: >
-      <p>Visualización de origen destino mostrando la proporción de material forestal desde las selvas y bosques mexicanos hasta los residuos disponibles para usos energéticos.</p>
-    text-title: Próximo lanzamiento en enero del 2017
+      <p>¡Lanzamiento en enero de 2017!</p>
+      <p>¿Sabes qué proporción de nuestros bosques y selvas se convierte en residuos con potencial energético? Visualización de los residuos en selvas y bosques mexicanos.</p>
 
-suggestions-title: Recomendaciones en financiamiento climático
+suggestions-title: Recomendaciones
 
 suggestions:
   - name: >
-      Finanzas Carbono - Plataforma sobre financiamiento climático para Latinoamérica y el Caribe
-    logo: img/knowledge/finanzas-carbono.png
+      Impact Investing Trends
+    logo: img/knowledge/Impact-InvestingTrends.jpg
     text: >
-      <p>Texto breve</p>
-    link: http://finanzascarbono.org/
+      <p>Los activos manejados por fundos de inversión de impacto han crecido 18% entre 2013 y 2015. Los retornos de inversión han sido mayores a los esperados y en una gran proporción son mayores a las expectativas de mercado.</p>
+    link: https://thegiin.org/assets/GIIN_Impact%20InvestingTrends%20Report.pdf
 
   - name: >
-      Climate Policy Initiative
-    logo: img/knowledge/climate-policy.gif
+      State of Forestal Carbone Finance 2016
+    logo: img/knowledge/Forest-Carbon-Finance-2016.jpg
     text: >
-      <p>Texto breve</p>
+      <p>El financiamiento forestal es aún muy bajo respecto de los requerimientos para cumplir metas de mitigación de emisiones, sin embargo, a nivel internacional entre 2015 y 2016 se han movilizado casi 300 millones de dólares en mecanismos de mercado y de incentivos. Revisa este reporte para conocer las tendencias del financiamiento forestal.</p>
     link: http://www.climatefinancelandscape.org/
-
-  - name: >
-      Grupo de Financiamiento Climático para América Latina y el Caribe
-    logo: img/knowledge/gflac.png
-    text: >
-      <p>Texto breve</p>
-    link: http://gflac.org/
-
-  - name: >
-      Althelia Ecosphere
-    logo: img/knowledge/althelia.png
-    text: >
-      <p>Texto breve</p>
-    link: https://althelia.com/
-
-  - name: >
-      Canopy Capital
-    logo: img/knowledge/canopy.png
-    text: >
-      <p>Texto breve</p>
-    link: http://investcanopy.com/

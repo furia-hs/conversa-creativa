@@ -17,64 +17,55 @@ lang: es
   <div class="col-sm-offset-1 col-sm-10">
     {{ site.data.conocimiento.description }}
   </div>
+</section>
 
-  <div class="col-sm-offset-1 col-sm-10">
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs conversa-nav-tabs" role="tablist">
-      <li role="presentation" class="active"><a href="#conversa" aria-controls="conversa" role="tab" data-toggle="tab"><u>Producción Conversa</u></a></li>
-      <li role="presentation"><a href="#recomendaciones" aria-controls="recomendaciones" role="tab" data-toggle="tab"><u>Recomendaciones</u></a></li>
-    </ul>
-
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane section-content active" id="conversa">
-        <ul class="row">
-          {% for creations in site.data.conocimiento.creations %}
-            <li class="col-sm-6">
-              <p><i class="fa fa-book" aria-hidden="true"></i>{{ creations.name }}</p>
-              <div class="row">
-                <div class="col-sm-4">
-                  <img src="{{ creations.image }}" />
-                </div>
-                <div class="col-sm-8">
-                  {{ creations.text }}
-                  {% if creations.link %}
-                    <p><a href="#{{ creations.data-target }}" data-toggle="collapse">Visualizar</a> | <a href="{{ creations.link }}" target="_blank">Descargar</a></p>
-                  {% else %}
-                    <p>{{ creations.text-title }}</p>
-                  {% endif %}
-                </div>
+<section class="col-sm-offset-1 col-sm-10 section-content">
+  <div class="row">
+    <div class="col-sm-6">
+      <h2 class="text-center extra-margin">{{ site.data.conocimiento.creations-title }}</h2>
+      <ul class="row">
+        {% for creations in site.data.conocimiento.creations %}
+          <li class="col-sm-12">
+            <p><i class="fa fa-book" aria-hidden="true"></i>{{ creations.name }}</p>
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="{{ creations.image }}" />
+              </div>
+              <div class="col-sm-9">
+                {{ creations.text }}
+              </div>
+              {% if creations.link %}
+                <p class="col-offset-3 col-sm-9"><a href="#{{ creations.data-target }}" data-toggle="collapse">Visualizar</a> | <a href="{{ creations.link }}" target="_blank">Descargar</a></p>
                 <div id="{{ creations.data-target }}" class="collapse col-sm-12">
-                  <object data="{{ creations.link }}" type="application/pdf" width="100%" height="400"></object>
+                  <object data="{{ creations.link }}?#zoom=75" type="application/pdf" width="100%" height="400"></object>
                 </div>
-              </div>
-            </li>
-          {% endfor %}
-        </ul>
-        <!-- div class="col-sm-offset-2 col-sm-8">
-          <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="100%" height="400" src="https://prezi.com/embed/trd5yvbncq1e/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N2JkK0xsZ0RTRUp6dWhLb2tjd3JqakNnPT0&amp;landing_sign=ZMj8dJmMeKF66FKdckKRgQ_OPpAQ6e7Wa_Z-LU5GIdQ"></iframe>
-        </div -->
-      </div>
-      <div role="tabpanel" class="tab-pane row section-content" id="recomendaciones">
-        <ul>
-          {% for suggestions in site.data.conocimiento.suggestions %}
-            <li class="row">
-              <div class="col-sm-12">
-                <p><i class="fa fa-book" aria-hidden="true"></i>{{ suggestions.name }}</p>
-                  <div class="row">
-                    <div class="col-sm-2">
-                      <img src="{{ suggestions.logo }}">
-                    </div>
-                    <div class="col-sm-10">
-                      {{ suggestions.text }}
-                      <a href="{{ suggestions.link }}" target="_blank">{{ suggestions.link }}</a></p>
-                    </div>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+    <div class="col-sm-6">
+      <h2 class="text-center extra-margin">{{ site.data.conocimiento.suggestions-title }}</h2>
+      <ul>
+        {% for suggestions in site.data.conocimiento.suggestions %}
+          <li class="row">
+            <div class="col-sm-12">
+              <p><i class="fa fa-book" aria-hidden="true"></i>{{ suggestions.name }}</p>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <a href="{{ suggestions.link }}" target="_blank"><img src="{{ suggestions.logo }}"></a>
                   </div>
-              </div>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+                  <div class="col-sm-9">
+                    {{ suggestions.text }}
+                    <a href="{{ suggestions.link }}" target="_blank">Descargar</a>
+                  </div>
+                </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>
