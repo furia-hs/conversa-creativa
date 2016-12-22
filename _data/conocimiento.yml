@@ -1,6 +1,6 @@
 title: Conocimiento
 description: >
-  <p>En esta sección compartimos publicaciones propias así como recomendaciones de lectura  en torno a nuestras dos especialidades: inversión sustentable y energías renovables. Si tienes sugerencias por favor escríbenos a <a href="mailto:comunicacion@conversamexico.com">comunicacion@conversamexico.com</a>.</p>
+  <p>En esta sección compartimos publicaciones propias así como recomendaciones de lectura  en torno a nuestras dos especialidades: inversión sustentable y energías renovables. Si tienes sugerencias o deseas recibir nuestras publicaciones impresas escríbenos a <a href="mailto:comunicacion@conversamexico.com">comunicacion@conversamexico.com</a>.</p>
 
 creations-title: Producción Conversa
 
@@ -12,6 +12,7 @@ creations:
       <p>Mapeo categorizado y referencias en línea sobre el conocimiento en bioenergía y biocombustibles en México.</p>
     text-title: Conversa-Brochure-2016.pdf
     link: pdf/knowledge/Mapa-de-conocimiento-en-bioenergia-y-combustibles-solidos-2016.pdf
+    prezi: https://prezi.com/trd5yvbncq1e/biomasa_-agosto/
     data-target: mapa_2016
 
   - name: >
@@ -24,16 +25,29 @@ creations:
 suggestions-title: Recomendaciones
 
 suggestions:
-  - name: >
+  - entity: GIIN.
+    entity-link: https://thegiin.org/
+    name: >
       Impact Investing Trends
     logo: img/knowledge/Impact-InvestingTrends.jpg
     text: >
-      <p>Los activos manejados por fundos de inversión de impacto han crecido 18% entre 2013 y 2015. Los retornos de inversión han sido mayores a los esperados y en una gran proporción son mayores a las expectativas de mercado.</p>
+      <p>Los activos manejados por fondos de inversión de impacto han crecido 18% entre 2013 y 2015. Los retornos de inversión han sido mayores a los esperados y en una gran proporción son mayores a las expectativas de mercado.</p><p>Publicación disponible solo en inglés.</p>
     link: https://thegiin.org/assets/GIIN_Impact%20InvestingTrends%20Report.pdf
 
-  - name: >
-      State of Forestal Carbone Finance 2016
+  - entity: Forest Trends.
+    entity-link:  http://www.forest-trends.org/
+    name: >
+      State of Forest Carbon Finance
     logo: img/knowledge/Forest-Carbon-Finance-2016.jpg
     text: >
       <p>El financiamiento forestal es aún muy bajo respecto de los requerimientos para cumplir metas de mitigación de emisiones, sin embargo, a nivel internacional entre 2015 y 2016 se han movilizado casi 300 millones de dólares en mecanismos de mercado y de incentivos. Revisa este reporte para conocer las tendencias del financiamiento forestal.</p>
     link: http://www.forest-trends.org/documents/files/doc_5388.pdf
+
+  - entity: REN21.
+    entity-link: http://www.ren21.net/
+    name: >
+      Reporte de la situación mundial. Energías renovables 2016
+    logo: img/knowledge/Reporte-situacion-mundial.jpg
+    text: >
+      <p>Existen grandes desafíos energéticos, en especial en países en desarrollo, pero las fuentes de energía renovable han crecido sostenidamente en el mundo, y desde 2009 las inversiones netas en este sector sobrepasaron las de combustibles fósiles, lo que añade capacidad de generación. Revisa este reporte para conocer el estatus y las perspectivas mundiales de las renovables.</p>
+    link: http://www.ren21.net/wp-content/uploads/2016/06/GSR_2016_KeyFindings_SPANISH.pdf

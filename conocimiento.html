@@ -23,19 +23,19 @@ lang: es
   <div class="row">
     <div class="col-sm-6">
       <h2 class="text-center extra-margin">{{ site.data.conocimiento.creations-title }}</h2>
-      <ul class="row">
+      <ul class="row section-content-list-custom-height">
         {% for creations in site.data.conocimiento.creations %}
           <li class="col-sm-12">
-            <p><i class="fa fa-book" aria-hidden="true"></i>{{ creations.name }}</p>
+            <p class="section-content-knowledge-list"><i class="fa fa-book" aria-hidden="true"></i><span>{{ creations.name }}</span></p>
             <div class="row">
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-xs-6">
                 <img src="{{ creations.image }}" />
               </div>
-              <div class="col-sm-9">
+              <div class="col-sm-9 col-xs-6">
                 {{ creations.text }}
               </div>
               {% if creations.link %}
-                <p class="col-offset-3 col-sm-9"><a href="#{{ creations.data-target }}" data-toggle="collapse">Visualizar</a> | <a href="{{ creations.link }}" target="_blank">Descargar</a></p>
+                <p class="col-offset-3 col-sm-9 col-xs-6"><a href="#{{ creations.data-target }}" data-toggle="collapse">Visualizar</a> | <a href="{{ creations.link }}" target="_blank">Descargar</a>  | <a href="{{ creations.prezi }}" target="_blank">Ver Prezi</a></p>
                 <div id="{{ creations.data-target }}" class="collapse col-sm-12">
                   <object data="{{ creations.link }}?#zoom=75" type="application/pdf" width="100%" height="400"></object>
                 </div>
@@ -48,20 +48,18 @@ lang: es
     </div>
     <div class="col-sm-6">
       <h2 class="text-center extra-margin">{{ site.data.conocimiento.suggestions-title }}</h2>
-      <ul>
+      <ul class="row section-content-list-custom-height">
         {% for suggestions in site.data.conocimiento.suggestions %}
-          <li class="row">
-            <div class="col-sm-12">
-              <p><i class="fa fa-book" aria-hidden="true"></i>{{ suggestions.name }}</p>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <a href="{{ suggestions.link }}" target="_blank"><img src="{{ suggestions.logo }}"></a>
-                  </div>
-                  <div class="col-sm-9">
-                    {{ suggestions.text }}
-                    <a href="{{ suggestions.link }}" target="_blank">Descargar</a>
-                  </div>
-                </div>
+          <li class="col-sm-12">
+            <p class="section-content-knowledge-list"><i class="fa fa-book" aria-hidden="true"></i><span><a href="{{ suggestions.entity-link }}">{{ suggestions.entity }}</a> {{ suggestions.name }}</span></p>
+            <div class="row">
+              <div class="col-sm-3 col-xs-6">
+                <a href="{{ suggestions.link }}" target="_blank"><img src="{{ suggestions.logo }}"></a>
+              </div>
+              <div class="col-sm-9 col-xs-6">
+                {{ suggestions.text }}
+                <a href="{{ suggestions.link }}" target="_blank">Descargar</a>
+              </div>
             </div>
           </li>
         {% endfor %}

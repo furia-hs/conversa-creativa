@@ -453,6 +453,9 @@ p {
 
 .section-content p {
   text-align: justify;
+  @media (max-width:767px) {
+    text-align: left;
+  }
 }
 
 .section-content a {
@@ -482,6 +485,99 @@ p {
   padding-bottom: 5px;
 }
 
+.section-content-knowledge-list {
+  display: table-row;
+}
+
+.section-content-knowledge-list span {
+  display: table-cell;
+  padding-bottom: 5px;
+}
+
+.section-content-knowledge-list img {
+
+}
+
+.section-content-list-custom-height {
+  li {
+    margin-bottom: 30px;
+  }
+  li:nth-child(1) {
+    height: 252px;
+    //iPhone 5 and 5S - portrait
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+      height: auto;
+    }
+    //iPhone 5 and 5S - landscape
+    @media only screen and (min-device-width: 414px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      height: auto;
+    }
+    //iPhone 6 - portrait
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+      height: auto;
+    }
+    //iPhone 6 - landscape
+    @media only screen and (min-device-width: 414px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      height: auto;
+    }
+    //iPhne 6+ - portrait
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+      height: auto;
+    }
+    //iPhne 6+ - landscape
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+      height: auto;
+    }
+    // iPad Mini portrait
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      height: 370px;
+    }
+    // iPad Mini landscape
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      height: 280px;
+    }
+
+  }
+  li:nth-child(2) {
+    height: 260px;
+    //iPhone 5 and 5S - portrait
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+      height: auto;
+    }
+    //iPhone 5 and 5S - landscape
+    @media only screen and (min-device-width: 414px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      height: auto;
+    }
+    //iPhone 6 - portrait
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+      height: auto;
+    }
+    //iPhone 6 - landscape
+    @media only screen and (min-device-width: 414px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      height: auto;
+    }
+    //iPhne 6+ - portrait
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+      height: auto;
+    }
+    //iPhne 6+ - landscape
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+      height: inherit;
+    }
+    // iPad Mini portrait
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      height: 430px;
+    }
+    // iPad Mini landscape
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      height: 310px;
+    }
+  }
+  li:nth-child(3) {
+
+  }
+}
+
 .section-content ol ul {
   margin-bottom: 0!important;
 }
@@ -506,11 +602,7 @@ p {
     margin-bottom: 20px;
   }
 }
-/*
-h3.section-content-element__cursor[aria-expanded="true"] {
-  color: $brand-color;
-}
-*/
+
 .project-page-map {
   stroke-width: 3;
 }
@@ -588,4 +680,4 @@ h3.section-content-element__cursor[aria-expanded="true"] {
 
 .extra-margin {
   margin-bottom: 30px!important;
- }
+}
