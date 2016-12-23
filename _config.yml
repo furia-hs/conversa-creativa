@@ -26,6 +26,9 @@ t:
     equipo:
       name: "EQUIPO"
       url: "/equipo.html"
+    conocimiento:
+      name: "CONOCIMIENTO"
+      url: "/conocimiento.html"
 
   en:
     home:
