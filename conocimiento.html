@@ -36,9 +36,6 @@ lang: es
               </div>
               {% if creations.link %}
                 <p class="col-offset-3 col-sm-9 col-xs-6"><!-- a href="#{{ creations.data-target }}" data-toggle="collapse">Visualizar</a | --><a href="{{ creations.link }}" target="_blank">Descargar</a>  | <a href="{{ creations.prezi }}" target="_blank">Ver Prezi</a></p>
-                <div id="{{ creations.data-target }}" class="collapse col-sm-12">
-                  <object data="{{ creations.link }}?#zoom=75" type="application/pdf" width="100%" height="400"></object>
-                </div>
               {% endif %}
             </div>
           </li>
