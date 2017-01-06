@@ -43,6 +43,9 @@ t:
     equipo:
       name: "TEAM"
       url: "/team.html"
+    conocimiento:
+      name: "KNOWLEDGE"
+      url: "/knowledge.html"
 
 # Build settings
 markdown: kramdown

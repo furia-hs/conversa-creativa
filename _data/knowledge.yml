@@ -1,28 +1,28 @@
 title: Knowledge
 description: >
-  <p>Here we share our own publications as well as recommended readings around our two specialties: sustainable investment and renewable energies. If you have suggestions please write to <a href="mailto:comunicacion@conversamexico.com">comunicacion@conversamexico.com</a>.</p>
+  <p>Let us share in this section our own publications and reading suggestions on our two specialties: sustainable investment and renewable energy. If you have any suggestions or want to receive a hard copy of our publications, please send an email to <a href="mailto:comunicacion@conversamexico.com">comunicacion@conversamexico.com</a>.</p>
 
-creations-title: Producción Conversa
+creations-title: Conversa's production
 
 creations:
   - name: >
-      Mapa de conocimiento en bioenergía y combustibles sólidos 2016
+      2016 Bioenergy and solid fuels knowledge map (Mexico)
     image: img/knowledge/Portada-Mapa-de-conocimiento-2016.jpg
     text: >
-      <p>Mapeo categorizado y referencias en línea sobre el conocimiento en bioenergía y biocombustibles en México.</p>
+      <p>Categorized mapping and online references about bioenergy and biofuels knowledge in Mexico.</p>
     text-title: Conversa-Brochure-2016.pdf
     link: pdf/knowledge/Mapa-de-conocimiento-en-bioenergia-y-combustibles-solidos-2016.pdf
     prezi: https://prezi.com/trd5yvbncq1e/biomasa_-agosto/
     data-target: mapa_2016
 
   - name: >
-      Residuos de selvas y bosques mexicanos para usos energéticos
+      Mexican forest and jungle residues for energy use
     image: img/knowledge/residuos-selvas-bosques.jpg
     text: >
-      <p>¡Lanzamiento en enero de 2017!</p>
-      <p>¿Sabes qué proporción de nuestros bosques y selvas se convierte en residuos con potencial energético? Visualización de los residuos en selvas y bosques mexicanos.</p>
+      <p>Launch date, January 2017!</p>
+      <p>Do you know how much of the Mexican forest and jungles turns into residues with energy potential? Find the answer in our Mexican forest and jungle biomass publication.</p>
 
-suggestions-title: Recomendaciones
+suggestions-title: Reading suggestions
 
 suggestions:
   - entity: GIIN.
@@ -31,7 +31,7 @@ suggestions:
       Impact Investing Trends
     logo: img/knowledge/Impact-InvestingTrends.jpg
     text: >
-      <p>Los activos manejados por fondos de inversión de impacto han crecido 18% entre 2013 y 2015. Los retornos de inversión han sido mayores a los esperados y en una gran proporción son mayores a las expectativas de mercado.</p><p>Publicación disponible solo en inglés.</p>
+      <p>Assets managed by impact investment funds have grown 18% between 2013 and 2015. Investment returns have been greater than expected and are bigger than market expectations.</p>
     link: https://thegiin.org/assets/GIIN_Impact%20InvestingTrends%20Report.pdf
 
   - entity: Forest Trends.
@@ -40,14 +40,14 @@ suggestions:
       State of Forest Carbon Finance
     logo: img/knowledge/Forest-Carbon-Finance-2016.jpg
     text: >
-      <p>El financiamiento forestal es aún muy bajo respecto de los requerimientos para cumplir metas de mitigación de emisiones, sin embargo, a nivel internacional entre 2015 y 2016 se han movilizado casi 300 millones de dólares en mecanismos de mercado y de incentivos. Revisa este reporte para conocer las tendencias del financiamiento forestal.</p>
+      <p>Forest funding is still too low to comply with internationally agreed mitigation goals. However, almost 300 million USD have been committed to market and results based instruments between 2015 and 2016. Read this report to learn about trends in forest carbon finance.</p>
     link: http://www.forest-trends.org/documents/files/doc_5388.pdf
 
   - entity: REN21.
     entity-link: http://www.ren21.net/
     name: >
-      Reporte de la situación mundial. Energías renovables 2016
+      Renewable energy2016. World status report
     logo: img/knowledge/Reporte-situacion-mundial.jpg
     text: >
-      <p>Existen grandes desafíos energéticos, en especial en países en desarrollo, pero las fuentes de energía renovable han crecido sostenidamente en el mundo, y desde 2009 las inversiones netas en este sector sobrepasaron las de combustibles fósiles, lo que añade capacidad de generación. Revisa este reporte para conocer el estatus y las perspectivas mundiales de las renovables.</p>
+      <p>Energy challenges are big, especially for developing countries, but renewable energy sources have sustainably grown around the world, and since 2009, gross investments in this sector has surpassed fossil fuel´s which increase production capacity. Read this report to learn about the status and world perspectives of renewable energy.</p>
     link: http://www.ren21.net/wp-content/uploads/2016/06/GSR_2016_KeyFindings_SPANISH.pdf
