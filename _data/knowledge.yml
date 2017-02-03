@@ -7,11 +7,11 @@ creations-title: Conversa's production
 creations:
   - name: >
       2016 Bioenergy and solid fuels knowledge map (Mexico)
-    image: img/knowledge/Portada-Mapa-de-conocimiento-2016.jpg
+    image: \img\knowledge\knowledgemapbioenergy.jpg
     text: >
       <p>Categorized mapping and online references about bioenergy and biofuels knowledge in Mexico.</p>
     text-title: Conversa-Brochure-2016.pdf
-    link: pdf/knowledge/Mapa-de-conocimiento-en-bioenergia-y-combustibles-solidos-2016.pdf
+    link: pdf\knowledge\Knowledge-map-on-bioenergy.pdf
     prezi: https://prezi.com/trd5yvbncq1e/biomasa_-agosto/
     data-target: mapa_2016
 
