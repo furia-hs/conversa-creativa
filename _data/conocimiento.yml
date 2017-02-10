@@ -16,11 +16,12 @@ creations:
     data-target: mapa_2016
 
   - name: >
-      Residuos de selvas y bosques mexicanos para usos energéticos
-    image: img/knowledge/residuos-selvas-bosques.jpg
+      Residuos forestales para usos energéticos
+    image: img\knowledge\biomasaforestal.png
     text: >
-      <p>¡Lanzamiento en febrero de 2017!</p>
-      <p>¿Sabes qué proporción de nuestros bosques y selvas se convierte en residuos con potencial energético? Visualización de los residuos en selvas y bosques mexicanos.</p>
+      <p>A nivel nacional, la biomasa aporta el 4.35% de la producción de energía primaria, sin embargo, existe el potencial de crecer hasta 38%. Encuentra en esta publicación, el rol que pueden jugar los bosques y selvas mexicanos en este desarrollo. </p>
+    text-title: Bioenergia_forestal_residuos_dgtl.pdf
+    link: pdf\knowledge\Bioenergia_forestal_residuos_dgtl.pdf
 
 suggestions-title: Recomendaciones
 
