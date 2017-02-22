@@ -15,14 +15,13 @@ creations:
     prezi: https://prezi.com/trd5yvbncq1e/biomasa_-agosto/
     data-target: mapa_2016
 
-creations:
   - name: >
       Residuos forestales para usos energéticos
     image: img\knowledge\biomasaforestal.png
     text: >
       <p>A nivel nacional, la biomasa aporta el 4.35% de la producción de energía primaria, sin embargo, existe el potencial de crecer hasta 38%. Encuentra en esta publicación, el rol que pueden jugar los bosques y selvas mexicanos en este desarrollo. </p>
     text-title: Bioenergia_forestal_residuos_dgtl.pdf
-    link-text: pdf\knowledge\Bioenergia_forestal_residuos_dgtl.pdf
+    link: pdf\knowledge\Bioenergia_forestal_residuos_dgtl.pdf
 
 suggestions-title: Recomendaciones
 
