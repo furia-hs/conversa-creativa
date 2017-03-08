@@ -34,9 +34,7 @@ lang: es
               <div class="col-sm-9 col-xs-6">
                 {{ creations.text }}
               </div>
-              {% if creations.link %}
-                <p class="col-offset-3 col-sm-9 col-xs-6"><!-- a href="#{{ creations.data-target }}" data-toggle="collapse">Visualizar</a | --><a href="{{ creations.link }}" target="_blank">Descargar</a>  | <a href="{{ creations.prezi }}" target="_blank">Ver Prezi</a></p>
-              {% endif %}
+                {% if creations.link %}<p class="col-offset-3 col-sm-9 col-xs-6"><a href="{{ creations.link }}" target="_blank">Descargar</a>{% endif %}{% if creations.prezi %}  | <a href="{{ creations.prezi }}" target="_blank">Ver Prezi</a>{% endif %}</p>
             </div>
           </li>
         {% endfor %}
