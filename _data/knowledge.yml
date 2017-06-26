@@ -17,7 +17,7 @@ creations:
 
   - name: >
       Mexican forest and jungle residues for energy use
-    image: img\knowledge\biomasaforestal.png
+    image: img/knowledge/residuos-selvas-bosques.jpg
     text: >
       <p>Do you know how much of the Mexican forest and jungles turns into residues with energy potential? Find the answer in our Mexican forest and jungle biomass publication.</p>
     link: pdf\Forest_residues_bioenergy_Mexico.pdf
